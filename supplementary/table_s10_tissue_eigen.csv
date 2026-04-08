@@ -1,0 +1,12 @@
+Tissue Class,N Cell Types,N Kaiser,PC1 Var%,PC1 Sim to Global,PC1 Top Modules
+GLOBAL (all),154,5,32.9,1.000,(reference)
+blood_immune,22,5,55.4,0.980,"ERK/MAPK(0.29), PPAR/LXR(0.29), JAK-STAT(0.29)"
+endocrine,10,4,38.4,0.754,"p53(-0.33), ATR/CHK1(-0.32), mTOR(-0.32)"
+epithelial,70,5,26.9,0.828,"NF-κB(-0.34), p53(-0.34), ERK/MAPK(-0.34)"
+mesenchymal,12,6,30.2,0.491,"PPAR/LXR(0.36), Hippo(0.35), TGF-β(0.35)"
+neuronal,17,6,34.0,0.882,"Cell Cycle(-0.33), TGF-β(-0.32), JAK-STAT(-0.31)"
+stem_germ,13,6,35.2,0.751,"PPAR/LXR(-0.31), Wnt(-0.31), JAK-STAT(-0.30)"
+vascular,10,5,34.9,0.219,"mTOR(0.36), ATR/CHK1(0.34), SREBP(0.31)"
+
+Verdict,"PARTIALLY UNIVERSAL — axis conserved in some tissues, remodeled in others",,,,
+Mean PC1 similarity,0.701,,,,

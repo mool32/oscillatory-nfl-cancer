@@ -1,0 +1,8 @@
+{
+  "accuracy_uncorrected": 0.48717948717948717,
+  "accuracy_corrected": 0.48717948717948717,
+  "n_genes_tested": 39,
+  "mannwhitney_p": 0.0037584786255887063,
+  "effect_size_uncorrected": 2.325396825396825,
+  "effect_size_corrected": 1.4047619047619047
+}

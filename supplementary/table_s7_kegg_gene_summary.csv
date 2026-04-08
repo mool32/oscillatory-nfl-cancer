@@ -1,0 +1,9 @@
+Category,N Genes,N CGC,CGC %
+NFL genes,76,36,47.4
+Non-NFL KEGG genes,16684,251,1.5
+Total KEGG signaling,16760,287,
+
+Enrichment Test,Fold/OR,p-value,
+Test 1: NFL vs Genome,12.8x,1.90e-31,
+Test 2: NFL vs KEGG,28.1x,5.47e-44,
+Test 3: NFL vs non-NFL,OR=59.0,9.08e-44,

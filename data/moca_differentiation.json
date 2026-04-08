@@ -1,0 +1,338 @@
+{
+  "n_trajectories": 13,
+  "n_stages": 5,
+  "stage_range": "E9.5-E13.5",
+  "trajectory_stats": {
+    "Endothelial": {
+      "rho_day_eintra": -0.8999999999999998,
+      "p_day_eintra": 0.03738607346849875,
+      "direction": "decreasing",
+      "cancer_relevance": "LOW",
+      "E_intra_means": [
+        9.1754,
+        8.9671,
+        8.9716,
+        8.5691,
+        8.4742
+      ]
+    },
+    "Epithelial": {
+      "rho_day_eintra": -0.8999999999999998,
+      "p_day_eintra": 0.03738607346849875,
+      "direction": "decreasing",
+      "cancer_relevance": "HIGH",
+      "E_intra_means": [
+        8.9947,
+        8.8475,
+        8.9244,
+        8.5045,
+        8.2834
+      ]
+    },
+    "Eye": {
+      "rho_day_eintra": -0.9999999999999999,
+      "p_day_eintra": 1.4042654220543672e-24,
+      "direction": "decreasing",
+      "cancer_relevance": "LOW",
+      "E_intra_means": [
+        9.0119,
+        8.8735,
+        8.8351,
+        8.3949,
+        8.339
+      ]
+    },
+    "Hematopoietic": {
+      "rho_day_eintra": -0.9999999999999999,
+      "p_day_eintra": 1.4042654220543672e-24,
+      "direction": "decreasing",
+      "cancer_relevance": "HIGH",
+      "E_intra_means": [
+        9.0471,
+        8.8357,
+        8.7151,
+        8.1444,
+        8.1044
+      ]
+    },
+    "Hepatic": {
+      "rho_day_eintra": -0.8999999999999998,
+      "p_day_eintra": 0.03738607346849875,
+      "direction": "decreasing",
+      "cancer_relevance": "HIGH",
+      "E_intra_means": [
+        9.0403,
+        9.0651,
+        9.0023,
+        8.4868,
+        8.3847
+      ]
+    },
+    "Intermediate_mesoderm": {
+      "rho_day_eintra": -0.6,
+      "p_day_eintra": 0.28475697986529375,
+      "direction": "decreasing",
+      "cancer_relevance": "LOW",
+      "E_intra_means": [
+        8.9061,
+        8.9553,
+        9.0109,
+        8.6115,
+        8.4789
+      ]
+    },
+    "Kidney": {
+      "rho_day_eintra": -0.9999999999999999,
+      "p_day_eintra": 1.4042654220543672e-24,
+      "direction": "decreasing",
+      "cancer_relevance": "MEDIUM",
+      "E_intra_means": [
+        8.7553,
+        8.7267,
+        8.5902,
+        8.2367,
+        8.1047
+      ]
+    },
+    "Lens": {
+      "rho_day_eintra": -0.8999999999999998,
+      "p_day_eintra": 0.03738607346849875,
+      "direction": "decreasing",
+      "cancer_relevance": "LOW",
+      "E_intra_means": [
+        9.2046,
+        9.0006,
+        9.0373,
+        8.563,
+        8.4972
+      ]
+    },
+    "Mesenchyme": {
+      "rho_day_eintra": -0.6,
+      "p_day_eintra": 0.28475697986529375,
+      "direction": "decreasing",
+      "cancer_relevance": "MEDIUM",
+      "E_intra_means": [
+        8.7088,
+        8.7633,
+        8.8121,
+        8.375,
+        8.2464
+      ]
+    },
+    "Neural": {
+      "rho_day_eintra": -0.8999999999999998,
+      "p_day_eintra": 0.03738607346849875,
+      "direction": "decreasing",
+      "cancer_relevance": "MEDIUM",
+      "E_intra_means": [
+        8.9693,
+        8.8415,
+        8.895,
+        8.409,
+        8.3173
+      ]
+    },
+    "Neural_crest": {
+      "rho_day_eintra": -0.8999999999999998,
+      "p_day_eintra": 0.03738607346849875,
+      "direction": "decreasing",
+      "cancer_relevance": "MEDIUM",
+      "E_intra_means": [
+        8.9217,
+        8.7178,
+        8.7457,
+        8.3383,
+        8.2465
+      ]
+    },
+    "Notochord": {
+      "rho_day_eintra": -0.8999999999999998,
+      "p_day_eintra": 0.03738607346849875,
+      "direction": "decreasing",
+      "cancer_relevance": "LOW",
+      "E_intra_means": [
+        9.0815,
+        8.8779,
+        8.9578,
+        8.4684,
+        8.373
+      ]
+    },
+    "Other": {
+      "rho_day_eintra": -1.0,
+      "p_day_eintra": 0.0,
+      "direction": "decreasing",
+      "cancer_relevance": "UNKNOWN",
+      "E_intra_means": [
+        8.965,
+        8.619,
+        8.423
+      ]
+    }
+  },
+  "eigenspace_positions": {
+    "Endothelial": {
+      "hpa_cell_types": [
+        "vascular endothelial cells",
+        "lymphatic endothelial cells"
+      ],
+      "ia_score": 98.311,
+      "pc1": null,
+      "pc2": null,
+      "pc3": null,
+      "cancer_relevance": "LOW"
+    },
+    "Epithelial": {
+      "hpa_cell_types": [
+        "colonocytes",
+        "enterocytes",
+        "hepatocytes",
+        "respiratory ciliated cells",
+        "alveolar cells type 1"
+      ],
+      "ia_score": 80.831,
+      "pc1": null,
+      "pc2": null,
+      "pc3": null,
+      "cancer_relevance": "HIGH"
+    },
+    "Eye": {
+      "hpa_cell_types": [
+        "retinal ganglion cells",
+        "rod photoreceptor cells",
+        "cone photoreceptor cells",
+        "retinal pigment epithelial cells"
+      ],
+      "ia_score": 55.461,
+      "pc1": null,
+      "pc2": null,
+      "pc3": null,
+      "cancer_relevance": "LOW"
+    },
+    "Hematopoietic": {
+      "hpa_cell_types": [
+        "b-cells",
+        "t-cells",
+        "monocytes",
+        "neutrophils",
+        "macrophages",
+        "nk-cells",
+        "erythrocytes"
+      ],
+      "ia_score": 134.24,
+      "pc1": null,
+      "pc2": null,
+      "pc3": null,
+      "cancer_relevance": "HIGH"
+    },
+    "Hepatic": {
+      "hpa_cell_types": [
+        "hepatocytes",
+        "cholangiocytes",
+        "kupffer cells"
+      ],
+      "ia_score": 71.291,
+      "pc1": null,
+      "pc2": null,
+      "pc3": null,
+      "cancer_relevance": "HIGH"
+    },
+    "Intermediate_mesoderm": {
+      "hpa_cell_types": [
+        "podocytes",
+        "proximal tubule cells",
+        "loop of henle epithelial cells"
+      ],
+      "ia_score": 81.664,
+      "pc1": null,
+      "pc2": null,
+      "pc3": null,
+      "cancer_relevance": "LOW"
+    },
+    "Kidney": {
+      "hpa_cell_types": [
+        "podocytes",
+        "proximal tubule cells",
+        "renal collecting duct principal cells"
+      ],
+      "ia_score": 81.051,
+      "pc1": null,
+      "pc2": null,
+      "pc3": null,
+      "cancer_relevance": "MEDIUM"
+    },
+    "Lens": {
+      "hpa_cell_types": [
+        "ocular epithelial cells"
+      ],
+      "ia_score": 118.37,
+      "pc1": null,
+      "pc2": null,
+      "pc3": null,
+      "cancer_relevance": "LOW"
+    },
+    "Mesenchyme": {
+      "hpa_cell_types": [
+        "fibroblasts",
+        "smooth muscle cells",
+        "pericytes",
+        "fibro-adipogenic progenitors"
+      ],
+      "ia_score": 88.63,
+      "pc1": null,
+      "pc2": null,
+      "pc3": null,
+      "cancer_relevance": "MEDIUM"
+    },
+    "Neural": {
+      "hpa_cell_types": [
+        "brain excitatory neurons",
+        "brain inhibitory neurons",
+        "astrocytes",
+        "oligodendrocytes",
+        "microglia"
+      ],
+      "ia_score": 74.812,
+      "pc1": null,
+      "pc2": null,
+      "pc3": null,
+      "cancer_relevance": "MEDIUM"
+    },
+    "Neural_crest": {
+      "hpa_cell_types": [
+        "melanocytes",
+        "schwann cells",
+        "adrenal medulla cells"
+      ],
+      "ia_score": 69.535,
+      "pc1": null,
+      "pc2": null,
+      "pc3": null,
+      "cancer_relevance": "MEDIUM"
+    }
+  },
+  "dev_aging_replication": {
+    "rho": -0.020162527947154698,
+    "p": 0.9478733608871798,
+    "n": 13
+  },
+  "increasing_trajectories": [],
+  "decreasing_trajectories": [
+    "Endothelial",
+    "Epithelial",
+    "Eye",
+    "Hematopoietic",
+    "Hepatic",
+    "Intermediate_mesoderm",
+    "Kidney",
+    "Lens",
+    "Mesenchyme",
+    "Neural",
+    "Neural_crest",
+    "Notochord",
+    "Other"
+  ],
+  "cancer_high_mean_rho": -0.933,
+  "cancer_low_mean_rho": -0.86
+}

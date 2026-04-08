@@ -1,0 +1,19 @@
+Trajectory,Cancer Relevance,"rho(day, E_intra)",p-value,Direction,E_intra E9.5,E_intra E13.5,IA Score (adult)
+Endothelial,LOW,-0.900,0.0374,decreasing,9.175,8.474,98.311
+Epithelial,HIGH,-0.900,0.0374,decreasing,8.995,8.283,80.831
+Eye,LOW,-1.000,0.0000,decreasing,9.012,8.339,55.461
+Hematopoietic,HIGH,-1.000,0.0000,decreasing,9.047,8.104,134.24
+Hepatic,HIGH,-0.900,0.0374,decreasing,9.040,8.385,71.291
+Intermediate_mesoderm,LOW,-0.600,0.2848,decreasing,8.906,8.479,81.664
+Kidney,MEDIUM,-1.000,0.0000,decreasing,8.755,8.105,81.051
+Lens,LOW,-0.900,0.0374,decreasing,9.205,8.497,118.37
+Mesenchyme,MEDIUM,-0.600,0.2848,decreasing,8.709,8.246,88.63
+Neural,MEDIUM,-0.900,0.0374,decreasing,8.969,8.317,74.812
+Neural_crest,MEDIUM,-0.900,0.0374,decreasing,8.922,8.246,69.535
+Notochord,LOW,-0.900,0.0374,decreasing,9.082,8.373,
+Other,UNKNOWN,-1.000,,decreasing,8.965,8.423,
+
+Summary,,,,,,,
+N trajectories,13,,,,,,
+All decreasing,13,,,,,,
+Dev-aging replication rho,-0.020,,,,,,

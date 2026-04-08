@@ -1,0 +1,32 @@
+{
+  "cgc_version": "COSMIC_CGC_v103_740genes",
+  "nfl_genes": 76,
+  "nfl_cgc": 36,
+  "nfl_cgc_pct": 47.4,
+  "kegg_genes": 16760,
+  "kegg_cgc": 283,
+  "kegg_cgc_pct": 1.7,
+  "non_nfl_cgc": 251,
+  "non_nfl_cgc_pct": 1.5,
+  "test1_fold": 12.8,
+  "test1_p": 1.9038630078477905e-31,
+  "test2_fold": 28.1,
+  "test2_p": 5.474912206886766e-44,
+  "test3_OR": 58.96,
+  "test3_p": 9.084882452945689e-44,
+  "test3_table": [
+    [
+      36,
+      40
+    ],
+    [
+      251,
+      16444
+    ]
+  ],
+  "paper1_fold": 12.1,
+  "paper2_fold": 12.8,
+  "venn_both": 24,
+  "venn_nfl_only": 12,
+  "venn_paper1_only": 46
+}

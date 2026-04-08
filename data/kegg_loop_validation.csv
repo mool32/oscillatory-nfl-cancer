@@ -1,0 +1,23 @@
+loop_id,pathway,activator,inhibitor,act_in_kegg,inh_in_kegg,fwd_path,fwd_len,rev_path,rev_len,has_inhibition,full_loop
+1,NF-κB / IκBα,RELA,NFKBIA,True,True,EBP-1 → NFKBIA,1,NFKBIA → EBP-1,1,True,True
+2,p53 / Mdm2,TP53,MDM2,True,True,TP53 → MDM2,1,MDM2 → TP53,1,True,True
+3,ERK / DUSP,MAPK1,DUSP1,True,True,,,MKP-5 → MAPK1,1,True,False
+4,Wnt / APC-Axin,CTNNB1,AXIN2,True,False,,,,,False,False
+5,Notch / FBXW7,NOTCH1,FBXW7,True,False,,,,,False,False
+6,Circadian,ARNTL,PER2,False,True,,,,,False,False
+7,Hippo / LATS,YAP1,LATS1,True,False,,,,,False,False
+8,mTOR / TSC,MTOR,TSC1,True,True,MTOR → PRKCA → MAPK1 → TSC1,3,TSC1 → RHEB → MTOR,2,True,True
+9,JAK-STAT / SOCS,STAT3,SOCS3,True,True,IMD31A → AISIMD,1,AISIMD → IMD31A,1,True,True
+10,TGF-β / SMAD6-7,SMAD3,SMAD7,True,True,SMAD3 → AOVD2,1,AOVD2 → SMAD3,1,True,True
+11,NRF2 / KEAP1,NFE2L2,KEAP1,True,False,,,,,False,False
+12,Hedgehog / SUFU,GLI1,SUFU,True,True,GLI1 → SUFU,1,,,False,False
+13,UPR / IRE1-BiP,ERN1,HSPA5,True,True,,,,,False,False
+14,Calcium / SERCA,PLCG1,ATP2A2,True,False,,,,,False,False
+15,Cell Cycle CKI/CDK,CDK2,CDKN1A,True,True,CDK2 → FOXO6 → CDKN1A,2,CDKN1A → CDK2,1,True,True
+16,Rb / E2F,E2F1,RB1,True,True,E2F1 → CCNE1 → RB1,2,RB1 → E2F1,1,True,True
+17,HIF / VHL,HIF1A,VHL,True,True,,,VHL → HIF1A,1,False,False
+18,NFAT / RCAN,NFATC1,RCAN1,True,True,NFATC1 → RCAN1,1,,,False,False
+19,PI3K-AKT / PTEN,PIK3CA,PTEN,True,True,LOC110117498-PIK3R3 → PTEN,1,PTEN → PLCD3 → LOC110117498-PIK3R3,2,False,False
+20,Myc / FBXW7,MYC,FBXW7,True,False,,,,,False,False
+21,Id / bHLH,TCF3,ID1,True,True,,,ID1 → THBS1 → ITGA11 → SRC → CTNNB1 → TCF3,5,True,False
+22,IκBζ / IL-6,IL6,NFKBIZ,True,False,,,,,False,False

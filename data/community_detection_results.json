@@ -1,0 +1,916 @@
+{
+  "summary": {
+    "n_motifs": 128,
+    "n_modules_kegg": 59,
+    "n_unique_pathway_labels": 14,
+    "network_nodes": 128,
+    "network_edges": 2042,
+    "network_density": 0.2512303149606299,
+    "n_connected_components": 8,
+    "louvain_source": "networkx"
+  },
+  "louvain_by_resolution": {
+    "0.5": {
+      "ARI": 0.2321124368746895,
+      "Q": 0.23933304060310434,
+      "n_communities": 9,
+      "ARI_vs_pathway_label": 0.8984273298197898
+    },
+    "1.0": {
+      "ARI": 0.44849678512809626,
+      "Q": 0.3923536736385871,
+      "n_communities": 10,
+      "ARI_vs_pathway_label": 0.48285626175662527
+    },
+    "1.5": {
+      "ARI": 0.5825729962372035,
+      "Q": 0.29611439789039223,
+      "n_communities": 16,
+      "ARI_vs_pathway_label": 0.18373615651574618
+    }
+  },
+  "resolution_1_0": {
+    "modularity_Q": 0.3923536736385871,
+    "n_communities": 10,
+    "communities": [
+      {
+        "community_idx": 1,
+        "n_motifs": 40,
+        "motif_ids": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109
+        ],
+        "motifs_genes": [
+          "STAT3|CISH",
+          "STAT3|SOCS4",
+          "STAT3|SOCS7",
+          "STAT3|SOCS1",
+          "STAT3|SOCS6",
+          "STAT3|SOCS5",
+          "STAT3|STAT1|CISH",
+          "STAT3|STAT1|SOCS4",
+          "STAT3|STAT1|SOCS7",
+          "STAT3|STAT1|SOCS1",
+          "STAT3|STAT1|SOCS6",
+          "STAT3|STAT1|SOCS5",
+          "STAT3|STAT5A|CISH",
+          "STAT3|STAT5A|SOCS4",
+          "STAT3|STAT5A|SOCS7",
+          "STAT3|STAT5A|SOCS1",
+          "STAT3|STAT5A|SOCS6",
+          "STAT3|STAT5A|SOCS5",
+          "STAT3|STAT5B|CISH",
+          "STAT3|STAT5B|SOCS4",
+          "STAT3|STAT5B|SOCS7",
+          "STAT3|STAT5B|SOCS1",
+          "STAT3|STAT5B|SOCS6",
+          "STAT3|STAT5B|SOCS5",
+          "STAT3|CISH|PRLR",
+          "STAT3|SOCS4|JAK1",
+          "STAT3|SOCS4|TYK2",
+          "STAT3|SOCS4|JAK2",
+          "STAT3|SOCS7|JAK1",
+          "STAT3|SOCS7|TYK2",
+          "STAT3|SOCS7|JAK2",
+          "STAT3|SOCS1|JAK1",
+          "STAT3|SOCS1|TYK2",
+          "STAT3|SOCS1|JAK2",
+          "STAT3|SOCS6|JAK1",
+          "STAT3|SOCS6|TYK2",
+          "STAT3|SOCS6|JAK2",
+          "STAT3|SOCS5|JAK1",
+          "STAT3|SOCS5|TYK2",
+          "STAT3|SOCS5|JAK2"
+        ],
+        "all_genes": [
+          "CISH",
+          "JAK1",
+          "JAK2",
+          "PRLR",
+          "SOCS1",
+          "SOCS4",
+          "SOCS5",
+          "SOCS6",
+          "SOCS7",
+          "STAT1",
+          "STAT3",
+          "STAT5A",
+          "STAT5B",
+          "TYK2"
+        ],
+        "n_genes": 14,
+        "top_genes_by_frequency": [
+          "STAT3",
+          "SOCS4",
+          "SOCS7",
+          "SOCS1",
+          "SOCS6",
+          "SOCS5",
+          "STAT1",
+          "STAT5A",
+          "STAT5B",
+          "CISH"
+        ],
+        "auto_label": "STAT3/SOCS4/SOCS7",
+        "kegg_pathway_composition": {
+          "JAK-STAT/SOCS": 40
+        },
+        "dominant_kegg_pathway": "JAK-STAT/SOCS"
+      },
+      {
+        "community_idx": 2,
+        "n_motifs": 29,
+        "motif_ids": [
+          0,
+          1,
+          2,
+          3,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "motifs_genes": [
+          "SOCS3|STAT1",
+          "SOCS3|STAT3",
+          "SOCS3|STAT5A",
+          "SOCS3|STAT5B",
+          "SOCS3|JAK1|STAT1",
+          "SOCS3|JAK1|STAT2",
+          "SOCS3|JAK1|STAT3",
+          "SOCS3|JAK1|STAT5A",
+          "SOCS3|JAK1|STAT5B",
+          "SOCS3|TYK2|STAT1",
+          "SOCS3|TYK2|STAT2",
+          "SOCS3|TYK2|STAT3",
+          "SOCS3|TYK2|STAT5B",
+          "SOCS3|TYK2|STAT5A",
+          "SOCS3|JAK2|STAT1",
+          "SOCS3|JAK2|STAT2",
+          "SOCS3|JAK2|STAT3",
+          "SOCS3|JAK2|STAT5B",
+          "SOCS3|JAK2|STAT5A",
+          "SOCS3|STAT1|STAT2",
+          "SOCS3|STAT1|STAT3",
+          "SOCS3|STAT1|STAT5A",
+          "SOCS3|STAT1|STAT5B",
+          "SOCS3|STAT3|STAT5A",
+          "SOCS3|STAT3|STAT5B",
+          "SOCS3|STAT5A|STAT5B",
+          "SOCS3|LEPR|STAT3",
+          "SOCS3|LEPR|STAT5A",
+          "SOCS3|LEPR|STAT5B"
+        ],
+        "all_genes": [
+          "JAK1",
+          "JAK2",
+          "LEPR",
+          "SOCS3",
+          "STAT1",
+          "STAT2",
+          "STAT3",
+          "STAT5A",
+          "STAT5B",
+          "TYK2"
+        ],
+        "n_genes": 10,
+        "top_genes_by_frequency": [
+          "SOCS3",
+          "STAT1",
+          "STAT3",
+          "STAT5A",
+          "STAT5B",
+          "JAK1",
+          "TYK2",
+          "JAK2",
+          "STAT2",
+          "LEPR"
+        ],
+        "auto_label": "SOCS3/STAT1/STAT3",
+        "kegg_pathway_composition": {
+          "JAK-STAT/SOCS": 29
+        },
+        "dominant_kegg_pathway": "JAK-STAT/SOCS"
+      },
+      {
+        "community_idx": 3,
+        "n_motifs": 22,
+        "motif_ids": [
+          4,
+          5,
+          39,
+          40,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "motifs_genes": [
+          "SMAD7|SMAD2",
+          "SMAD7|SMAD3",
+          "SOCS3|JAK2|MAPK1",
+          "SOCS3|CSF1R|MAPK1",
+          "SMAD7|SMAD2|SMAD4",
+          "SMAD7|SMAD3|SMAD4",
+          "SMAD7|SMAD1|SMAD4",
+          "SMAD7|SMAD5|SMAD4",
+          "SMAD7|TGFBR1|SMAD3",
+          "SMAD7|TGFBR1|SMAD2",
+          "SMAD7|TGFBR1|SMAD4",
+          "MAPK1|MAPK14|AKT3",
+          "MAPK1|MAPK14|AKT1",
+          "MAPK1|MAPK14|AKT2",
+          "MAPK1|SMAD2|BMPR1A",
+          "MAPK1|SMAD2|BMPR1B",
+          "MAPK1|SMAD2|BMPR2",
+          "MAPK1|SMAD3|BMPR1A",
+          "MAPK1|SMAD3|BMPR1B",
+          "MAPK1|SMAD3|BMPR2",
+          "MAPK1|SOCS1|JAK2",
+          "MAPK1|SOCS1|CSF1R"
+        ],
+        "all_genes": [
+          "AKT1",
+          "AKT2",
+          "AKT3",
+          "BMPR1A",
+          "BMPR1B",
+          "BMPR2",
+          "CSF1R",
+          "JAK2",
+          "MAPK1",
+          "MAPK14",
+          "SMAD1",
+          "SMAD2",
+          "SMAD3",
+          "SMAD4",
+          "SMAD5",
+          "SMAD7",
+          "SOCS1",
+          "SOCS3",
+          "TGFBR1"
+        ],
+        "n_genes": 19,
+        "top_genes_by_frequency": [
+          "MAPK1",
+          "SMAD7",
+          "SMAD2",
+          "SMAD3",
+          "SMAD4",
+          "MAPK14",
+          "TGFBR1",
+          "BMPR1A",
+          "BMPR1B",
+          "BMPR2"
+        ],
+        "auto_label": "MAPK1/SMAD7/SMAD2",
+        "kegg_pathway_composition": {
+          "MAPK/ERK": 3,
+          "BMP/SMAD": 6,
+          "JAK-STAT/SOCS": 4,
+          "TGF-\u03b2/SMAD": 9
+        },
+        "dominant_kegg_pathway": "TGF-\u03b2/SMAD"
+      },
+      {
+        "community_idx": 4,
+        "n_motifs": 18,
+        "motif_ids": [
+          14,
+          15,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ],
+        "motifs_genes": [
+          "CDK2|CDKN1B",
+          "CDK2|CDKN2A",
+          "E2F1|CCNE1|RB1",
+          "E2F1|CCNE1|RBL1",
+          "E2F1|CCNE1|RBL2",
+          "RB1|TFDP1|CCNE1",
+          "RB1|E2F2|CCNE1",
+          "RB1|E2F3|CCNE1",
+          "CDKN1A|CDK2|FOXO6",
+          "CDKN1A|CDK2|FOXO1",
+          "CDKN1A|CDK2|FOXO3",
+          "CDKN1A|CDK2|FOXO4",
+          "CDK2|FOXO6|CDKN1B",
+          "CDK2|FOXO1|CDKN1B",
+          "CDK2|FOXO3|CDKN1B",
+          "CDK2|FOXO4|CDKN1B",
+          "CDK2|CCNE1|CDKN1B",
+          "CDK2|CCNE1|CDKN2A"
+        ],
+        "all_genes": [
+          "CCNE1",
+          "CDK2",
+          "CDKN1A",
+          "CDKN1B",
+          "CDKN2A",
+          "E2F1",
+          "E2F2",
+          "E2F3",
+          "FOXO1",
+          "FOXO3",
+          "FOXO4",
+          "FOXO6",
+          "RB1",
+          "RBL1",
+          "RBL2",
+          "TFDP1"
+        ],
+        "n_genes": 16,
+        "top_genes_by_frequency": [
+          "CDK2",
+          "CCNE1",
+          "CDKN1B",
+          "RB1",
+          "CDKN1A",
+          "E2F1",
+          "CDKN2A",
+          "FOXO6",
+          "FOXO1",
+          "FOXO3"
+        ],
+        "auto_label": "CDK2/CCNE1/CDKN1B",
+        "kegg_pathway_composition": {
+          "Cell Cycle/CDK": 12,
+          "Rb/E2F": 6
+        },
+        "dominant_kegg_pathway": "Cell Cycle/CDK"
+      },
+      {
+        "community_idx": 5,
+        "n_motifs": 9,
+        "motif_ids": [
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          75,
+          120,
+          121
+        ],
+        "motifs_genes": [
+          "MTOR|IRS1|PIK3R3",
+          "MTOR|IRS1|PIK3CA",
+          "MTOR|IRS1|PIK3R1",
+          "MTOR|IRS2|PIK3R3",
+          "MTOR|IRS2|PIK3CA",
+          "MTOR|IRS2|PIK3R1",
+          "PIK3CA|PTEN|PTK2",
+          "PTEN|PTK2|PIK3R3",
+          "PTEN|PTK2|PIK3R1"
+        ],
+        "all_genes": [
+          "IRS1",
+          "IRS2",
+          "MTOR",
+          "PIK3CA",
+          "PIK3R1",
+          "PIK3R3",
+          "PTEN",
+          "PTK2"
+        ],
+        "n_genes": 8,
+        "top_genes_by_frequency": [
+          "MTOR",
+          "PTEN",
+          "PIK3CA",
+          "PTK2",
+          "PIK3R3",
+          "PIK3R1",
+          "IRS1",
+          "IRS2"
+        ],
+        "auto_label": "MTOR/PTEN/PIK3CA",
+        "kegg_pathway_composition": {
+          "PI3K/PTEN": 3,
+          "mTOR/IRS": 6
+        },
+        "dominant_kegg_pathway": "mTOR/IRS"
+      },
+      {
+        "community_idx": 6,
+        "n_motifs": 6,
+        "motif_ids": [
+          6,
+          16,
+          123,
+          124,
+          125,
+          126
+        ],
+        "motifs_genes": [
+          "MDM2|TP53",
+          "TP53|TP73",
+          "TP53|PMAIP1|BCL2",
+          "TP53|SIVA1|BCL2",
+          "TP53|BID|BCL2",
+          "TP53|BBC3|BCL2"
+        ],
+        "all_genes": [
+          "BBC3",
+          "BCL2",
+          "BID",
+          "MDM2",
+          "PMAIP1",
+          "SIVA1",
+          "TP53",
+          "TP73"
+        ],
+        "n_genes": 8,
+        "top_genes_by_frequency": [
+          "TP53",
+          "BCL2",
+          "TP73",
+          "MDM2",
+          "PMAIP1",
+          "SIVA1",
+          "BID",
+          "BBC3"
+        ],
+        "auto_label": "TP53/BCL2/TP73",
+        "kegg_pathway_composition": {
+          "p53/MDM2": 2,
+          "p53/Apoptosis": 4
+        },
+        "dominant_kegg_pathway": "p53/Apoptosis"
+      },
+      {
+        "community_idx": 7,
+        "n_motifs": 1,
+        "motif_ids": [
+          7
+        ],
+        "motifs_genes": [
+          "CTNNB1|CDH1"
+        ],
+        "all_genes": [
+          "CDH1",
+          "CTNNB1"
+        ],
+        "n_genes": 2,
+        "top_genes_by_frequency": [
+          "CDH1",
+          "CTNNB1"
+        ],
+        "auto_label": "CDH1/CTNNB1",
+        "kegg_pathway_composition": {
+          "Wnt/\u03b2-catenin": 1
+        },
+        "dominant_kegg_pathway": "Wnt/\u03b2-catenin"
+      },
+      {
+        "community_idx": 8,
+        "n_motifs": 1,
+        "motif_ids": [
+          23
+        ],
+        "motifs_genes": [
+          "RELA|TNFAIP3|TRAF6"
+        ],
+        "all_genes": [
+          "RELA",
+          "TNFAIP3",
+          "TRAF6"
+        ],
+        "n_genes": 3,
+        "top_genes_by_frequency": [
+          "TNFAIP3",
+          "RELA",
+          "TRAF6"
+        ],
+        "auto_label": "TNFAIP3/RELA/TRAF6",
+        "kegg_pathway_composition": {
+          "NF-\u03baB": 1
+        },
+        "dominant_kegg_pathway": "NF-\u03baB"
+      },
+      {
+        "community_idx": 9,
+        "n_motifs": 1,
+        "motif_ids": [
+          122
+        ],
+        "motifs_genes": [
+          "GLI1|GLI2|GLI3"
+        ],
+        "all_genes": [
+          "GLI1",
+          "GLI2",
+          "GLI3"
+        ],
+        "n_genes": 3,
+        "top_genes_by_frequency": [
+          "GLI2",
+          "GLI1",
+          "GLI3"
+        ],
+        "auto_label": "GLI2/GLI1/GLI3",
+        "kegg_pathway_composition": {
+          "Hedgehog/GLI": 1
+        },
+        "dominant_kegg_pathway": "Hedgehog/GLI"
+      },
+      {
+        "community_idx": 10,
+        "n_motifs": 1,
+        "motif_ids": [
+          127
+        ],
+        "motifs_genes": [
+          "YAP1|AXIN1|CSNK1E"
+        ],
+        "all_genes": [
+          "AXIN1",
+          "CSNK1E",
+          "YAP1"
+        ],
+        "n_genes": 3,
+        "top_genes_by_frequency": [
+          "CSNK1E",
+          "AXIN1",
+          "YAP1"
+        ],
+        "auto_label": "CSNK1E/AXIN1/YAP1",
+        "kegg_pathway_composition": {
+          "Hippo/YAP": 1
+        },
+        "dominant_kegg_pathway": "Hippo/YAP"
+      }
+    ]
+  },
+  "pathway_overlap_network": {
+    "nodes": [
+      {
+        "pathway": "BMP/SMAD",
+        "n_genes": 6,
+        "genes": [
+          "BMPR1A",
+          "BMPR1B",
+          "BMPR2",
+          "MAPK1",
+          "SMAD2",
+          "SMAD3"
+        ]
+      },
+      {
+        "pathway": "Cell Cycle/CDK",
+        "n_genes": 9,
+        "genes": [
+          "CCNE1",
+          "CDK2",
+          "CDKN1A",
+          "CDKN1B",
+          "CDKN2A",
+          "FOXO1",
+          "FOXO3",
+          "FOXO4",
+          "FOXO6"
+        ]
+      },
+      {
+        "pathway": "Hedgehog/GLI",
+        "n_genes": 3,
+        "genes": [
+          "GLI1",
+          "GLI2",
+          "GLI3"
+        ]
+      },
+      {
+        "pathway": "Hippo/YAP",
+        "n_genes": 3,
+        "genes": [
+          "AXIN1",
+          "CSNK1E",
+          "YAP1"
+        ]
+      },
+      {
+        "pathway": "JAK-STAT/SOCS",
+        "n_genes": 19,
+        "genes": [
+          "CISH",
+          "CSF1R",
+          "JAK1",
+          "JAK2",
+          "LEPR",
+          "MAPK1",
+          "PRLR",
+          "SOCS1",
+          "SOCS3",
+          "SOCS4",
+          "SOCS5",
+          "SOCS6",
+          "SOCS7",
+          "STAT1",
+          "STAT2",
+          "STAT3",
+          "STAT5A",
+          "STAT5B",
+          "TYK2"
+        ]
+      },
+      {
+        "pathway": "MAPK/ERK",
+        "n_genes": 5,
+        "genes": [
+          "AKT1",
+          "AKT2",
+          "AKT3",
+          "MAPK1",
+          "MAPK14"
+        ]
+      },
+      {
+        "pathway": "NF-\u03baB",
+        "n_genes": 3,
+        "genes": [
+          "RELA",
+          "TNFAIP3",
+          "TRAF6"
+        ]
+      },
+      {
+        "pathway": "PI3K/PTEN",
+        "n_genes": 5,
+        "genes": [
+          "PIK3CA",
+          "PIK3R1",
+          "PIK3R3",
+          "PTEN",
+          "PTK2"
+        ]
+      },
+      {
+        "pathway": "Rb/E2F",
+        "n_genes": 8,
+        "genes": [
+          "CCNE1",
+          "E2F1",
+          "E2F2",
+          "E2F3",
+          "RB1",
+          "RBL1",
+          "RBL2",
+          "TFDP1"
+        ]
+      },
+      {
+        "pathway": "TGF-\u03b2/SMAD",
+        "n_genes": 7,
+        "genes": [
+          "SMAD1",
+          "SMAD2",
+          "SMAD3",
+          "SMAD4",
+          "SMAD5",
+          "SMAD7",
+          "TGFBR1"
+        ]
+      },
+      {
+        "pathway": "Wnt/\u03b2-catenin",
+        "n_genes": 2,
+        "genes": [
+          "CDH1",
+          "CTNNB1"
+        ]
+      },
+      {
+        "pathway": "mTOR/IRS",
+        "n_genes": 6,
+        "genes": [
+          "IRS1",
+          "IRS2",
+          "MTOR",
+          "PIK3CA",
+          "PIK3R1",
+          "PIK3R3"
+        ]
+      },
+      {
+        "pathway": "p53/Apoptosis",
+        "n_genes": 6,
+        "genes": [
+          "BBC3",
+          "BCL2",
+          "BID",
+          "PMAIP1",
+          "SIVA1",
+          "TP53"
+        ]
+      },
+      {
+        "pathway": "p53/MDM2",
+        "n_genes": 3,
+        "genes": [
+          "MDM2",
+          "TP53",
+          "TP73"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "pathway1": "PI3K/PTEN",
+        "pathway2": "mTOR/IRS",
+        "jaccard": 0.375,
+        "n_shared": 3,
+        "shared_genes": [
+          "PIK3CA",
+          "PIK3R1",
+          "PIK3R3"
+        ]
+      },
+      {
+        "pathway1": "BMP/SMAD",
+        "pathway2": "TGF-\u03b2/SMAD",
+        "jaccard": 0.18181818181818182,
+        "n_shared": 2,
+        "shared_genes": [
+          "SMAD2",
+          "SMAD3"
+        ]
+      },
+      {
+        "pathway1": "p53/Apoptosis",
+        "pathway2": "p53/MDM2",
+        "jaccard": 0.125,
+        "n_shared": 1,
+        "shared_genes": [
+          "TP53"
+        ]
+      },
+      {
+        "pathway1": "BMP/SMAD",
+        "pathway2": "MAPK/ERK",
+        "jaccard": 0.1,
+        "n_shared": 1,
+        "shared_genes": [
+          "MAPK1"
+        ]
+      },
+      {
+        "pathway1": "Cell Cycle/CDK",
+        "pathway2": "Rb/E2F",
+        "jaccard": 0.0625,
+        "n_shared": 1,
+        "shared_genes": [
+          "CCNE1"
+        ]
+      },
+      {
+        "pathway1": "JAK-STAT/SOCS",
+        "pathway2": "MAPK/ERK",
+        "jaccard": 0.043478260869565216,
+        "n_shared": 1,
+        "shared_genes": [
+          "MAPK1"
+        ]
+      },
+      {
+        "pathway1": "BMP/SMAD",
+        "pathway2": "JAK-STAT/SOCS",
+        "jaccard": 0.041666666666666664,
+        "n_shared": 1,
+        "shared_genes": [
+          "MAPK1"
+        ]
+      }
+    ],
+    "cross_talk_genes": {
+      "MAPK1": [
+        "BMP/SMAD",
+        "JAK-STAT/SOCS",
+        "MAPK/ERK"
+      ],
+      "SMAD2": [
+        "BMP/SMAD",
+        "TGF-\u03b2/SMAD"
+      ],
+      "SMAD3": [
+        "BMP/SMAD",
+        "TGF-\u03b2/SMAD"
+      ],
+      "TP53": [
+        "p53/Apoptosis",
+        "p53/MDM2"
+      ],
+      "CCNE1": [
+        "Cell Cycle/CDK",
+        "Rb/E2F"
+      ],
+      "PIK3R1": [
+        "PI3K/PTEN",
+        "mTOR/IRS"
+      ],
+      "PIK3CA": [
+        "PI3K/PTEN",
+        "mTOR/IRS"
+      ],
+      "PIK3R3": [
+        "PI3K/PTEN",
+        "mTOR/IRS"
+      ]
+    }
+  },
+  "verdict": "PARTIAL MODULARITY: Moderate match between data-driven and KEGG",
+  "interpretation": {
+    "ARI_module_1_0": 0.44849678512809626,
+    "ARI_pathway_1_0": 0.48285626175662527,
+    "modularity_Q_1_0": 0.3923536736385871,
+    "interpretation_note": "ARI > 0.5 = modularity is biologically real (data-driven matches KEGG); ARI < 0.3 = modularity may be KEGG annotation artifact"
+  }
+}

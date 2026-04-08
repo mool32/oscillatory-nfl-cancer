@@ -1,0 +1,9 @@
+{
+  "gene_overlap_found": true,
+  "partial_r_mean": 0.248,
+  "partial_r_ttest_p": 0.003629038635215013,
+  "load_diversity_raw_r": 0.46,
+  "load_diversity_partial_r": 0.426,
+  "load_diversity_partial_p": 3.7633423611038023e-08,
+  "load_diversity_fraction_rho": 0.46
+}

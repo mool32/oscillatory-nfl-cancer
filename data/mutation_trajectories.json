@@ -1,0 +1,141 @@
+{
+  "n_cancer_types": 6,
+  "n_total_mutations": 23,
+  "pooled_rho": 0.271,
+  "pooled_p": 0.2107,
+  "mean_kendall_tau": -0.278,
+  "tau_ttest_p": 0.2053,
+  "first_is_highest": 0,
+  "first_is_highest_n": 6,
+  "sequences": [
+    {
+      "cancer": "Colorectal (Vogelstein)",
+      "genes": [
+        "APC",
+        "KRAS",
+        "TP53",
+        "SMAD4"
+      ],
+      "modules": [
+        "Wnt",
+        "ERK/MAPK",
+        "p53",
+        "TGF-\u03b2"
+      ],
+      "scores": [
+        3,
+        1,
+        4,
+        3
+      ],
+      "tau": -0.17
+    },
+    {
+      "cancer": "Pancreatic (PDAC)",
+      "genes": [
+        "KRAS",
+        "CDKN2A",
+        "TP53",
+        "SMAD4"
+      ],
+      "modules": [
+        "ERK/MAPK",
+        "Cell Cycle",
+        "p53",
+        "TGF-\u03b2"
+      ],
+      "scores": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "tau": -0.67
+    },
+    {
+      "cancer": "Endometrial (Type I)",
+      "genes": [
+        "PTEN",
+        "PIK3CA",
+        "CTNNB1",
+        "TP53"
+      ],
+      "modules": [
+        "PI3K/PTEN",
+        "PI3K/PTEN",
+        "Wnt",
+        "p53"
+      ],
+      "scores": [
+        2,
+        2,
+        3,
+        4
+      ],
+      "tau": -0.83
+    },
+    {
+      "cancer": "Lung adenocarcinoma",
+      "genes": [
+        "KRAS",
+        "TP53",
+        "STK11",
+        "KEAP1"
+      ],
+      "modules": [
+        "ERK/MAPK",
+        "p53",
+        "AMPK",
+        "NRF2"
+      ],
+      "scores": [
+        1,
+        4,
+        1,
+        1
+      ],
+      "tau": 0.17
+    },
+    {
+      "cancer": "Melanoma",
+      "genes": [
+        "BRAF",
+        "CDKN2A",
+        "TP53",
+        "PTEN"
+      ],
+      "modules": [
+        "ERK/MAPK",
+        "Cell Cycle",
+        "p53",
+        "PI3K/PTEN"
+      ],
+      "scores": [
+        1,
+        2,
+        4,
+        2
+      ],
+      "tau": -0.5
+    },
+    {
+      "cancer": "CML/Hematological",
+      "genes": [
+        "JAK2",
+        "TP53",
+        "NOTCH1"
+      ],
+      "modules": [
+        "JAK-STAT",
+        "p53",
+        "Notch"
+      ],
+      "scores": [
+        2,
+        4,
+        1
+      ],
+      "tau": 0.33
+    }
+  ]
+}

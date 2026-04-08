@@ -1,0 +1,884 @@
+{
+  "global": {
+    "n_cell_types": 154,
+    "n_kaiser": 5,
+    "variance_pct": [
+      32.9,
+      12.9,
+      8.4,
+      6.2,
+      6.0,
+      4.9
+    ]
+  },
+  "tissues": {
+    "blood_immune": {
+      "n_cell_types": 22,
+      "n_kaiser": 5,
+      "variance_pct": [
+        55.4,
+        11.4,
+        7.8,
+        7.1,
+        5.4,
+        3.4
+      ],
+      "pcs": [
+        {
+          "var": 55.4,
+          "top_modules": [
+            [
+              "ERK/MAPK",
+              0.291
+            ],
+            [
+              "PPAR/LXR",
+              0.29
+            ],
+            [
+              "JAK-STAT",
+              0.29
+            ]
+          ],
+          "sim_global": 0.98
+        },
+        {
+          "var": 11.4,
+          "top_modules": [
+            [
+              "ATR/CHK1",
+              -0.53
+            ],
+            [
+              "Cell Cycle",
+              -0.515
+            ],
+            [
+              "PI3K/PTEN",
+              -0.41
+            ]
+          ],
+          "sim_global": 0.407
+        },
+        {
+          "var": 7.8,
+          "top_modules": [
+            [
+              "Calcium",
+              0.462
+            ],
+            [
+              "Rho/ROCK",
+              0.416
+            ],
+            [
+              "p53",
+              0.375
+            ]
+          ],
+          "sim_global": 0.564
+        },
+        {
+          "var": 7.1,
+          "top_modules": [
+            [
+              "Circadian",
+              -0.408
+            ],
+            [
+              "p53",
+              -0.404
+            ],
+            [
+              "Cell Cycle",
+              0.366
+            ]
+          ],
+          "sim_global": 0.044
+        },
+        {
+          "var": 5.4,
+          "top_modules": [
+            [
+              "SREBP",
+              0.681
+            ],
+            [
+              "Calcium",
+              -0.49
+            ],
+            [
+              "PI3K/PTEN",
+              -0.405
+            ]
+          ],
+          "sim_global": 0.312
+        }
+      ]
+    },
+    "endocrine": {
+      "n_cell_types": 10,
+      "n_kaiser": 4,
+      "variance_pct": [
+        38.4,
+        18.2,
+        16.3,
+        12.6,
+        4.7,
+        3.5
+      ],
+      "pcs": [
+        {
+          "var": 38.4,
+          "top_modules": [
+            [
+              "p53",
+              -0.333
+            ],
+            [
+              "ATR/CHK1",
+              -0.323
+            ],
+            [
+              "mTOR",
+              -0.32
+            ]
+          ],
+          "sim_global": 0.754
+        },
+        {
+          "var": 18.2,
+          "top_modules": [
+            [
+              "Rho/ROCK",
+              0.491
+            ],
+            [
+              "NRF2",
+              0.45
+            ],
+            [
+              "Notch",
+              0.302
+            ]
+          ],
+          "sim_global": 0.629
+        },
+        {
+          "var": 16.3,
+          "top_modules": [
+            [
+              "Calcium",
+              0.45
+            ],
+            [
+              "SREBP",
+              0.394
+            ],
+            [
+              "Notch",
+              -0.313
+            ]
+          ],
+          "sim_global": 0.254
+        },
+        {
+          "var": 12.6,
+          "top_modules": [
+            [
+              "PI3K/PTEN",
+              0.474
+            ],
+            [
+              "JAK-STAT",
+              0.447
+            ],
+            [
+              "Hippo",
+              0.443
+            ]
+          ],
+          "sim_global": 0.015
+        }
+      ]
+    },
+    "epithelial": {
+      "n_cell_types": 70,
+      "n_kaiser": 5,
+      "variance_pct": [
+        26.9,
+        20.2,
+        10.8,
+        8.2,
+        5.3,
+        4.9
+      ],
+      "pcs": [
+        {
+          "var": 26.9,
+          "top_modules": [
+            [
+              "NF-\u03baB",
+              -0.342
+            ],
+            [
+              "p53",
+              -0.341
+            ],
+            [
+              "ERK/MAPK",
+              -0.34
+            ]
+          ],
+          "sim_global": 0.828
+        },
+        {
+          "var": 20.2,
+          "top_modules": [
+            [
+              "TGF-\u03b2",
+              -0.423
+            ],
+            [
+              "AMPK",
+              -0.375
+            ],
+            [
+              "PI3K/PTEN",
+              -0.367
+            ]
+          ],
+          "sim_global": 0.876
+        },
+        {
+          "var": 10.8,
+          "top_modules": [
+            [
+              "Rho/ROCK",
+              -0.329
+            ],
+            [
+              "NRF2",
+              0.313
+            ],
+            [
+              "SREBP",
+              -0.308
+            ]
+          ],
+          "sim_global": 0.148
+        },
+        {
+          "var": 8.2,
+          "top_modules": [
+            [
+              "Notch",
+              -0.355
+            ],
+            [
+              "Calcium",
+              0.351
+            ],
+            [
+              "PPAR/LXR",
+              -0.31
+            ]
+          ],
+          "sim_global": 0.106
+        },
+        {
+          "var": 5.3,
+          "top_modules": [
+            [
+              "Wnt",
+              0.554
+            ],
+            [
+              "mTOR",
+              -0.344
+            ],
+            [
+              "Calcium",
+              -0.32
+            ]
+          ],
+          "sim_global": 0.087
+        }
+      ]
+    },
+    "mesenchymal": {
+      "n_cell_types": 12,
+      "n_kaiser": 6,
+      "variance_pct": [
+        30.2,
+        21.9,
+        11.2,
+        10.6,
+        8.7,
+        6.4
+      ],
+      "pcs": [
+        {
+          "var": 30.2,
+          "top_modules": [
+            [
+              "PPAR/LXR",
+              0.36
+            ],
+            [
+              "Hippo",
+              0.355
+            ],
+            [
+              "TGF-\u03b2",
+              0.353
+            ]
+          ],
+          "sim_global": 0.491
+        },
+        {
+          "var": 21.9,
+          "top_modules": [
+            [
+              "Autophagy",
+              0.415
+            ],
+            [
+              "NRF2",
+              0.367
+            ],
+            [
+              "Circadian",
+              0.351
+            ]
+          ],
+          "sim_global": 0.3
+        },
+        {
+          "var": 11.2,
+          "top_modules": [
+            [
+              "Wnt",
+              0.466
+            ],
+            [
+              "Calcium",
+              -0.431
+            ],
+            [
+              "SREBP",
+              0.395
+            ]
+          ],
+          "sim_global": 0.312
+        },
+        {
+          "var": 10.6,
+          "top_modules": [
+            [
+              "p53",
+              0.398
+            ],
+            [
+              "Notch",
+              -0.383
+            ],
+            [
+              "PI3K/PTEN",
+              0.377
+            ]
+          ],
+          "sim_global": 0.24
+        },
+        {
+          "var": 8.7,
+          "top_modules": [
+            [
+              "Cell Cycle",
+              -0.451
+            ],
+            [
+              "PI3K/PTEN",
+              0.414
+            ],
+            [
+              "p53",
+              -0.378
+            ]
+          ],
+          "sim_global": 0.025
+        },
+        {
+          "var": 6.4,
+          "top_modules": [
+            [
+              "Notch",
+              0.453
+            ],
+            [
+              "Rho/ROCK",
+              -0.453
+            ],
+            [
+              "ERK/MAPK",
+              -0.33
+            ]
+          ],
+          "sim_global": 0.164
+        }
+      ]
+    },
+    "neuronal": {
+      "n_cell_types": 17,
+      "n_kaiser": 6,
+      "variance_pct": [
+        34.0,
+        16.0,
+        14.5,
+        10.8,
+        7.6,
+        6.0
+      ],
+      "pcs": [
+        {
+          "var": 34.0,
+          "top_modules": [
+            [
+              "Cell Cycle",
+              -0.326
+            ],
+            [
+              "TGF-\u03b2",
+              -0.32
+            ],
+            [
+              "JAK-STAT",
+              -0.313
+            ]
+          ],
+          "sim_global": 0.882
+        },
+        {
+          "var": 16.0,
+          "top_modules": [
+            [
+              "Circadian",
+              -0.459
+            ],
+            [
+              "PI3K/PTEN",
+              0.348
+            ],
+            [
+              "p53",
+              0.315
+            ]
+          ],
+          "sim_global": 0.019
+        },
+        {
+          "var": 14.5,
+          "top_modules": [
+            [
+              "PPAR/LXR",
+              -0.446
+            ],
+            [
+              "Rho/ROCK",
+              0.385
+            ],
+            [
+              "ATR/CHK1",
+              -0.379
+            ]
+          ],
+          "sim_global": 0.028
+        },
+        {
+          "var": 10.8,
+          "top_modules": [
+            [
+              "Wnt",
+              -0.444
+            ],
+            [
+              "mTOR",
+              0.4
+            ],
+            [
+              "PI3K/PTEN",
+              -0.384
+            ]
+          ],
+          "sim_global": 0.125
+        },
+        {
+          "var": 7.6,
+          "top_modules": [
+            [
+              "SREBP",
+              0.568
+            ],
+            [
+              "Wnt",
+              0.415
+            ],
+            [
+              "ERK/MAPK",
+              -0.394
+            ]
+          ],
+          "sim_global": 0.043
+        },
+        {
+          "var": 6.0,
+          "top_modules": [
+            [
+              "Notch",
+              0.455
+            ],
+            [
+              "PI3K/PTEN",
+              0.389
+            ],
+            [
+              "mTOR",
+              0.325
+            ]
+          ],
+          "sim_global": 0.152
+        }
+      ]
+    },
+    "stem_germ": {
+      "n_cell_types": 13,
+      "n_kaiser": 6,
+      "variance_pct": [
+        35.2,
+        22.4,
+        13.8,
+        8.7,
+        6.5,
+        5.4
+      ],
+      "pcs": [
+        {
+          "var": 35.2,
+          "top_modules": [
+            [
+              "PPAR/LXR",
+              -0.312
+            ],
+            [
+              "Wnt",
+              -0.307
+            ],
+            [
+              "JAK-STAT",
+              -0.296
+            ]
+          ],
+          "sim_global": 0.751
+        },
+        {
+          "var": 22.4,
+          "top_modules": [
+            [
+              "Circadian",
+              0.383
+            ],
+            [
+              "AMPK",
+              0.382
+            ],
+            [
+              "mTOR",
+              0.335
+            ]
+          ],
+          "sim_global": 0.303
+        },
+        {
+          "var": 13.8,
+          "top_modules": [
+            [
+              "Rho/ROCK",
+              0.401
+            ],
+            [
+              "Hippo",
+              -0.395
+            ],
+            [
+              "SREBP",
+              0.373
+            ]
+          ],
+          "sim_global": 0.17
+        },
+        {
+          "var": 8.7,
+          "top_modules": [
+            [
+              "ATR/CHK1",
+              0.422
+            ],
+            [
+              "PI3K/PTEN",
+              -0.411
+            ],
+            [
+              "Circadian",
+              0.351
+            ]
+          ],
+          "sim_global": 0.04
+        },
+        {
+          "var": 6.5,
+          "top_modules": [
+            [
+              "p53",
+              0.445
+            ],
+            [
+              "ATR/CHK1",
+              0.361
+            ],
+            [
+              "SREBP",
+              -0.344
+            ]
+          ],
+          "sim_global": 0.245
+        },
+        {
+          "var": 5.4,
+          "top_modules": [
+            [
+              "Autophagy",
+              -0.597
+            ],
+            [
+              "mTOR",
+              -0.425
+            ],
+            [
+              "Calcium",
+              -0.364
+            ]
+          ],
+          "sim_global": 0.274
+        }
+      ]
+    },
+    "vascular": {
+      "n_cell_types": 10,
+      "n_kaiser": 5,
+      "variance_pct": [
+        34.9,
+        25.5,
+        13.5,
+        10.8,
+        7.0,
+        4.4
+      ],
+      "pcs": [
+        {
+          "var": 34.9,
+          "top_modules": [
+            [
+              "mTOR",
+              0.358
+            ],
+            [
+              "ATR/CHK1",
+              0.339
+            ],
+            [
+              "SREBP",
+              0.314
+            ]
+          ],
+          "sim_global": 0.219
+        },
+        {
+          "var": 25.5,
+          "top_modules": [
+            [
+              "NF-\u03baB",
+              0.388
+            ],
+            [
+              "NRF2",
+              0.333
+            ],
+            [
+              "JAK-STAT",
+              0.329
+            ]
+          ],
+          "sim_global": 0.074
+        },
+        {
+          "var": 13.5,
+          "top_modules": [
+            [
+              "Cell Cycle",
+              -0.454
+            ],
+            [
+              "Autophagy",
+              0.364
+            ],
+            [
+              "Rho/ROCK",
+              -0.363
+            ]
+          ],
+          "sim_global": 0.351
+        },
+        {
+          "var": 10.8,
+          "top_modules": [
+            [
+              "Hippo",
+              -0.592
+            ],
+            [
+              "PI3K/PTEN",
+              0.393
+            ],
+            [
+              "p53",
+              0.386
+            ]
+          ],
+          "sim_global": 0.008
+        },
+        {
+          "var": 7.0,
+          "top_modules": [
+            [
+              "Calcium",
+              -0.653
+            ],
+            [
+              "p53",
+              0.346
+            ],
+            [
+              "SREBP",
+              -0.332
+            ]
+          ],
+          "sim_global": 0.154
+        }
+      ]
+    }
+  },
+  "pc1_mean_similarity": 0.701,
+  "pc1_sim_range": [
+    0.219,
+    0.98
+  ],
+  "verdict": "PARTIALLY UNIVERSAL \u2014 axis conserved in some tissues, remodeled in others",
+  "pair_correlations": {
+    "ERK/MAPK_Wnt": {
+      "global": 0.319,
+      "by_tissue": {
+        "mesenchymal": -0.037,
+        "endocrine": 0.404,
+        "epithelial": 0.002,
+        "neuronal": -0.087,
+        "blood_immune": 0.778,
+        "vascular": 0.441,
+        "stem_germ": 0.332
+      }
+    },
+    "ERK/MAPK_Notch": {
+      "global": 0.541,
+      "by_tissue": {
+        "mesenchymal": -0.082,
+        "endocrine": 0.266,
+        "epithelial": 0.531,
+        "neuronal": 0.747,
+        "blood_immune": 0.548,
+        "vascular": 0.085,
+        "stem_germ": 0.212
+      }
+    },
+    "p53_Cell Cycle": {
+      "global": 0.404,
+      "by_tissue": {
+        "mesenchymal": 0.757,
+        "endocrine": 0.649,
+        "epithelial": 0.743,
+        "neuronal": 0.695,
+        "blood_immune": 0.09,
+        "vascular": -0.087,
+        "stem_germ": 0.17
+      }
+    },
+    "mTOR_AMPK": {
+      "global": 0.47,
+      "by_tissue": {
+        "mesenchymal": 0.427,
+        "endocrine": 0.415,
+        "epithelial": 0.485,
+        "neuronal": 0.377,
+        "blood_immune": 0.759,
+        "vascular": -0.643,
+        "stem_germ": 0.49
+      }
+    },
+    "JAK-STAT_NF-\u03baB": {
+      "global": 0.744,
+      "by_tissue": {
+        "mesenchymal": 0.191,
+        "endocrine": 0.133,
+        "epithelial": 0.349,
+        "neuronal": 0.51,
+        "blood_immune": 0.872,
+        "vascular": 0.71,
+        "stem_germ": 0.678
+      }
+    },
+    "Hippo_TGF-\u03b2": {
+      "global": 0.626,
+      "by_tissue": {
+        "mesenchymal": 0.819,
+        "endocrine": 0.308,
+        "epithelial": 0.647,
+        "neuronal": 0.397,
+        "blood_immune": 0.646,
+        "vascular": 0.77,
+        "stem_germ": 0.902
+      }
+    },
+    "SREBP_PPAR/LXR": {
+      "global": 0.115,
+      "by_tissue": {
+        "mesenchymal": 0.812,
+        "endocrine": -0.152,
+        "epithelial": 0.078,
+        "neuronal": -0.351,
+        "blood_immune": 0.283,
+        "vascular": 0.27,
+        "stem_germ": 0.099
+      }
+    },
+    "Circadian_ATR/CHK1": {
+      "global": 0.306,
+      "by_tissue": {
+        "mesenchymal": 0.05,
+        "endocrine": 0.255,
+        "epithelial": 0.467,
+        "neuronal": -0.223,
+        "blood_immune": -0.023,
+        "vascular": 0.022,
+        "stem_germ": 0.529
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "new_modules_nfl": {
+    "AMPK": {
+      "n_genes": 23,
+      "n_nfl": 0,
+      "n_cgc": 5,
+      "nfl_genes": [],
+      "cgc_genes": [
+        "CREB1",
+        "FOXO3",
+        "STK11",
+        "TFEB",
+        "TSC2"
+      ]
+    },
+    "SREBP": {
+      "n_genes": 15,
+      "n_nfl": 0,
+      "n_cgc": 0,
+      "nfl_genes": [],
+      "cgc_genes": []
+    },
+    "ATR/CHK1": {
+      "n_genes": 14,
+      "n_nfl": 0,
+      "n_cgc": 2,
+      "nfl_genes": [],
+      "cgc_genes": [
+        "ATR",
+        "RAD17"
+      ]
+    },
+    "Rho/ROCK": {
+      "n_genes": 16,
+      "n_nfl": 0,
+      "n_cgc": 2,
+      "nfl_genes": [],
+      "cgc_genes": [
+        "ARHGAP5",
+        "RHOA"
+      ]
+    },
+    "PPAR/LXR": {
+      "n_genes": 18,
+      "n_nfl": 0,
+      "n_cgc": 5,
+      "nfl_genes": [],
+      "cgc_genes": [
+        "NCOA1",
+        "NCOA2",
+        "NCOR1",
+        "NCOR2",
+        "PPARG"
+      ]
+    },
+    "Autophagy": {
+      "n_genes": 18,
+      "n_nfl": 0,
+      "n_cgc": 1,
+      "nfl_genes": [],
+      "cgc_genes": [
+        "TFEB"
+      ]
+    }
+  },
+  "authority_vs_cgc_rho": 0.508,
+  "authority_vs_cgc_p": 0.111,
+  "convergence_vs_cgc_rho": 0.091,
+  "convergence_vs_cgc_p": 0.7894
+}

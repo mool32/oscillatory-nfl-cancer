@@ -1,0 +1,155 @@
+cell_type,cell_class,cognitive_load,continuous_load,Calcium,Cell Cycle,Circadian,ERK/MAPK,Hippo,JAK-STAT,NF-κB,NRF2,Notch,PI3K/PTEN,TGF-β,Wnt,mTOR,p53
+adipocytes,mesenchymal cells,7,-0.22,0,1,0,0,1,1,0,0,0,1,1,0,1,1
+adrenal cortex cells,endocrine cells,7,-0.83,0,1,0,0,1,1,0,0,0,1,0,1,1,1
+adrenal medulla cells,endocrine cells,0,-10.40,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+alveolar cells type 1,specialized epithelial cells,12,3.10,0,1,1,1,1,1,1,1,0,1,1,1,1,1
+alveolar cells type 2,specialized epithelial cells,10,5.03,1,0,1,1,1,1,1,1,0,1,0,1,0,1
+astrocytes,glial cells,5,-0.45,0,0,0,0,1,0,0,0,1,1,0,1,1,0
+b-cells,blood and immune cells,11,-0.16,1,1,0,1,0,1,1,0,1,1,1,1,1,1
+basal keratinocytes,specialized epithelial cells,11,7.03,1,1,1,1,1,0,1,1,1,0,1,1,0,1
+basal prostatic cells,specialized epithelial cells,11,0.00,0,1,1,1,1,1,1,1,1,1,1,0,0,1
+bergmann glia,glial cells,6,2.77,0,0,0,0,1,1,0,0,0,1,1,1,1,0
+brain excitatory neurons,neuronal cells,5,-1.82,1,0,0,0,0,0,0,0,1,1,0,1,1,0
+brain inhibitory neurons,neuronal cells,4,-3.49,1,0,0,0,0,0,0,0,0,1,0,1,1,0
+breast hormone-responsive cells,glandular epithelial cells,6,-0.54,0,1,1,0,0,1,1,0,1,0,0,0,0,1
+breast lactating cells,glandular epithelial cells,9,-1.94,1,0,1,1,1,0,1,1,1,1,0,0,1,0
+breast myoepithelial cells,specialized epithelial cells,5,-5.73,1,0,0,1,0,1,0,0,0,1,0,0,0,1
+breast secretory cells,glandular epithelial cells,8,0.74,0,1,1,1,0,1,1,1,1,0,0,0,0,1
+cardiomyocytes,muscle cells,5,-1.71,1,0,0,0,1,0,0,1,0,1,0,0,1,0
+cdc,blood and immune cells,11,5.17,1,1,0,1,0,1,1,1,1,1,1,1,0,1
+cholangiocytes,specialized epithelial cells,5,-6.03,0,0,1,1,1,0,1,0,1,0,0,0,0,0
+choroid plexus epithelial cells,ciliated cells,8,4.09,1,0,1,0,1,0,0,0,0,1,1,1,1,1
+colonocytes,glandular epithelial cells,10,0.96,1,1,1,1,0,0,1,1,1,0,1,1,0,1
+cone photoreceptor cells,neuronal cells,4,-4.17,0,0,1,0,0,0,0,0,0,0,1,1,1,0
+conjunctival goblet cells,glandular epithelial cells,11,-0.44,1,1,1,1,1,0,1,1,1,0,1,0,1,1
+corticotrophs,endocrine cells,6,-3.86,1,0,1,0,0,1,0,0,0,1,0,1,1,0
+cytotrophoblasts,trophoblast cells,4,-4.22,0,1,0,0,1,0,0,0,0,0,0,1,0,1
+decidual stromal cells,mesenchymal cells,4,-3.31,0,0,0,1,1,1,1,0,0,0,0,0,0,0
+differentiating spermatogonia,germ cells,1,-9.83,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+distal convoluted tubule cells,specialized epithelial cells,7,3.73,1,0,0,0,1,0,0,1,0,1,1,1,1,0
+early primary spermatocytes,germ cells,2,-8.85,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+early spermatids,germ cells,2,-7.90,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+endometrial ciliated cells,ciliated cells,11,6.22,1,1,1,0,1,1,1,1,1,0,1,0,1,1
+endometrial glandular cells,glandular epithelial cells,13,15.30,1,1,1,1,1,1,1,1,1,0,1,1,1,1
+endometrial luminal cells,glandular epithelial cells,13,10.36,1,1,1,1,1,1,1,1,1,0,1,1,1,1
+endometrial secretory cells,glandular epithelial cells,9,0.58,0,1,1,0,1,0,1,1,1,0,1,1,0,1
+endometrial stromal cells,mesenchymal cells,8,2.57,0,0,1,1,1,1,1,0,1,0,1,1,0,0
+enteric stem cells,stem and proliferating cells,5,-2.03,0,0,1,1,0,0,1,0,1,0,0,1,0,0
+enteric transient amplifying cells,stem and proliferating cells,3,-3.58,1,0,0,0,0,0,0,0,1,0,0,0,0,1
+enterocytes,glandular epithelial cells,11,2.24,1,1,1,1,0,1,1,1,1,0,1,1,0,1
+ependymal cells,ciliated cells,5,-0.62,0,0,0,0,1,0,0,0,1,1,0,1,1,0
+epicardial cells,specialized epithelial cells,7,2.35,0,1,1,0,0,1,1,1,0,0,1,0,1,0
+epididymal basal cells,specialized epithelial cells,13,14.15,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+epididymal clear cells,specialized epithelial cells,6,-2.94,0,1,0,0,1,0,1,1,0,0,1,0,0,1
+epididymal efferent duct absorptive cells,specialized epithelial cells,8,0.53,0,1,1,1,0,1,1,1,1,0,0,0,0,1
+epididymal efferent duct ciliated cells,ciliated cells,7,0.65,1,1,1,0,0,0,1,1,1,0,0,0,0,1
+epididymal principal cells,specialized epithelial cells,7,-1.68,1,1,0,1,0,0,1,0,1,0,0,0,1,1
+erythrocyte progenitors,blood and immune cells,3,-7.77,0,1,0,0,0,0,0,0,0,1,0,0,1,0
+erythrocytes,blood and immune cells,0,-17.48,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+esophageal apical cells,squamous epithelial cells,10,23.22,1,1,1,1,1,1,1,1,1,0,0,0,0,1
+esophageal basal cells,specialized epithelial cells,9,1.24,1,1,1,1,0,0,1,1,1,0,1,0,0,1
+esophageal suprabasal cells,squamous epithelial cells,8,7.06,1,1,1,1,0,0,1,1,1,0,0,0,0,1
+extravillous trophoblasts,trophoblast cells,9,6.60,1,1,1,1,1,0,1,1,0,0,0,1,0,1
+fallopian secretory cells,glandular epithelial cells,9,-0.34,0,1,1,1,1,1,1,1,1,0,0,0,0,1
+fallopian tube ciliated cells,ciliated cells,9,1.83,1,1,1,1,0,1,1,1,1,0,0,0,0,1
+fibro-adipogenic progenitors,mesenchymal cells,6,-0.27,0,1,0,0,1,1,0,0,0,1,1,0,1,0
+fibroblasts,mesenchymal cells,10,2.49,0,1,1,1,1,1,1,1,0,1,1,0,0,1
+foveolar cells,glandular epithelial cells,8,-2.00,0,0,1,1,0,1,0,0,1,0,1,1,1,1
+gastric chief cells,glandular epithelial cells,0,-9.27,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+gastric progenitor cells,stem and proliferating cells,2,-7.18,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+goblet cells,glandular epithelial cells,7,-2.36,0,1,1,1,0,0,1,0,1,0,0,1,0,1
+gonadotrophs,endocrine cells,3,-4.08,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+granulosa cells,specialized epithelial cells,6,-2.41,0,0,0,1,1,1,1,1,1,0,0,0,0,0
+hematopoietic stem cells,stem and proliferating cells,8,-2.13,0,0,0,1,1,1,1,0,0,1,1,1,1,0
+hepatic stellate cells,mesenchymal cells,3,-5.58,0,0,0,1,1,0,0,0,0,0,0,0,0,1
+hepatocytes,specialized epithelial cells,2,-5.86,0,0,0,1,0,0,0,0,0,0,0,0,0,1
+hofbauer cells,blood and immune cells,7,-3.87,1,1,0,1,0,0,1,1,0,0,1,0,0,1
+innate lymphoid cells,blood and immune cells,12,6.29,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+kupffer cells,blood and immune cells,7,3.10,0,1,0,1,0,1,1,1,0,0,1,1,0,0
+lacrimal acinar cells,glandular epithelial cells,5,-4.11,1,0,1,0,1,0,0,0,1,0,0,0,1,0
+lactotrophs,endocrine cells,8,-2.68,0,1,1,0,0,1,0,0,1,1,1,1,1,0
+late primary spermatocytes,germ cells,0,-12.02,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+late spermatids,germ cells,2,-3.47,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+leydig cells,endocrine cells,5,-1.82,0,0,0,0,1,1,0,1,0,1,0,0,1,0
+loop of henle epithelial cells,specialized epithelial cells,4,-1.07,0,0,0,0,1,0,0,0,0,1,1,0,1,0
+lymphatic endothelial cells,endothelial and mural cells,12,1.25,1,1,1,1,1,1,1,1,1,1,0,1,0,1
+macrophages,blood and immune cells,11,5.81,1,1,0,1,0,1,1,1,1,1,1,1,0,1
+mast cells,blood and immune cells,10,5.25,1,1,0,1,0,1,1,1,1,1,1,0,0,1
+medullary thymic epithelial cells,specialized epithelial cells,8,-1.33,0,1,0,1,1,1,1,0,0,1,0,1,0,1
+megakaryocyte progenitors,blood and immune cells,4,-6.71,0,1,0,0,0,0,1,0,0,1,1,0,0,0
+megakaryocyte-erythroid progenitors,blood and immune cells,3,-5.32,0,0,0,0,0,0,1,0,0,1,1,0,0,0
+megakaryocytes,blood and immune cells,2,-11.76,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+melanocytes,pigment cells,6,-1.90,1,1,0,0,0,0,1,1,0,1,0,1,0,0
+mesothelial cells,specialized epithelial cells,5,-2.87,0,0,1,0,1,1,1,1,0,0,0,0,0,0
+microglia,glial cells,6,4.25,0,1,0,0,0,1,0,0,0,1,1,1,1,0
+migrating cytotrophoblasts,trophoblast cells,8,-2.47,1,1,1,1,1,0,0,1,0,0,0,1,0,1
+monocyte progenitors,blood and immune cells,11,-1.06,1,1,0,1,0,1,1,0,1,1,1,1,1,1
+monocytes,blood and immune cells,11,16.07,1,1,0,1,0,1,1,1,1,1,1,1,0,1
+mucous neck cells,glandular epithelial cells,2,-6.69,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+myonuclei,muscle cells,11,12.06,1,1,1,0,1,1,0,1,1,1,1,1,1,0
+myosatellite cells,stem and proliferating cells,10,-2.21,0,1,0,1,1,1,1,1,0,1,0,1,1,1
+müller glia,glial cells,5,-0.78,1,0,1,1,0,0,0,0,1,0,0,0,1,0
+neuroendocrine cells,endocrine cells,4,-5.45,0,1,1,1,0,0,0,0,0,0,0,0,0,1
+neutrophil progenitors,blood and immune cells,12,8.23,1,1,0,1,1,1,1,1,1,1,1,1,1,0
+neutrophils,blood and immune cells,13,48.10,1,1,0,1,1,1,1,1,1,1,1,1,1,1
+nk-cells,blood and immune cells,11,1.76,1,0,1,1,0,1,1,1,1,1,1,1,1,0
+ocular epithelial cells,specialized epithelial cells,13,16.20,1,1,1,1,1,1,1,1,1,1,1,1,0,1
+oligodendrocyte progenitor cells,glial cells,4,-2.15,0,0,0,0,0,0,0,0,0,1,1,1,1,0
+oligodendrocytes,glial cells,3,-3.64,0,0,0,0,0,0,0,0,0,1,0,1,1,0
+oocytes,germ cells,1,-14.18,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+other brain neurons,neuronal cells,3,-5.30,0,0,0,0,0,0,0,0,0,1,0,1,1,0
+ovarian stromal cells,mesenchymal cells,8,-2.05,0,1,0,1,1,1,1,1,1,0,0,0,0,1
+pancreatic acinar cells,glandular epithelial cells,9,-0.20,1,1,1,1,0,1,1,0,0,1,1,0,0,1
+pancreatic duct cells,specialized epithelial cells,10,2.82,0,1,1,1,1,1,1,1,1,0,1,0,0,1
+pancreatic islet cells,endocrine cells,4,-5.71,1,0,1,0,0,1,0,0,1,0,0,0,0,0
+paneth cells,specialized epithelial cells,2,-6.54,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+papillary tip epithelial cells,specialized epithelial cells,7,0.58,0,0,0,0,1,0,0,1,1,1,1,0,1,1
+parietal cells,glandular epithelial cells,2,-7.69,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+pdcs,blood and immune cells,5,-6.56,0,1,0,0,0,1,1,0,0,0,1,0,0,1
+pericytes,endothelial and mural cells,10,2.66,1,1,0,1,1,1,1,0,1,1,0,0,1,1
+peritubular myoid cells,mesenchymal cells,5,-4.67,1,0,0,0,1,1,0,1,0,1,0,0,0,0
+pituicytes/fscs,glial cells,10,4.21,0,1,1,0,1,1,0,1,1,1,1,1,1,0
+pituitary stem cells,stem and proliferating cells,7,0.50,1,0,0,0,1,0,0,0,1,1,1,1,1,0
+plasma cells,blood and immune cells,7,-0.91,1,1,0,1,0,1,1,0,1,0,0,0,0,1
+platelets,blood and immune cells,4,-4.02,1,1,0,0,0,1,0,0,0,0,0,0,0,1
+podocytes,specialized epithelial cells,6,-0.53,0,0,0,0,1,0,0,1,0,1,1,1,1,0
+prostatic club cells,glandular epithelial cells,7,1.45,0,0,1,1,1,0,0,0,1,1,1,0,0,1
+prostatic glandular cells,glandular epithelial cells,6,-2.57,0,0,0,1,1,0,0,0,0,1,1,1,1,0
+prostatic hillock cells,specialized epithelial cells,10,3.05,0,1,1,1,1,0,0,1,1,1,1,0,1,1
+proximal tubule cells,specialized epithelial cells,5,-1.21,0,0,0,0,1,0,0,0,0,1,1,1,1,0
+renal collecting duct intercalated cells,specialized epithelial cells,5,1.73,0,0,0,0,1,0,0,1,0,1,1,0,1,0
+renal collecting duct principal cells,specialized epithelial cells,5,1.56,0,0,0,0,1,0,0,1,0,1,1,0,1,0
+renal connecting tubule cells,specialized epithelial cells,8,7.27,0,0,0,0,1,1,0,1,1,1,1,1,1,0
+respiratory basal cells,specialized epithelial cells,12,4.45,1,0,1,1,1,1,1,1,1,1,1,1,0,1
+respiratory ciliated cells,ciliated cells,8,1.24,1,0,1,1,0,1,0,1,0,0,1,1,0,1
+respiratory deuterosomal cells,ciliated cells,8,-0.28,1,1,1,1,0,0,0,1,1,0,1,0,0,1
+respiratory ionocytes,specialized epithelial cells,3,-5.32,1,0,0,0,0,0,0,1,0,0,0,1,0,0
+respiratory secretory cells,glandular epithelial cells,9,0.67,1,0,1,1,0,1,0,1,1,0,1,1,0,1
+retinal amacrine cells,neuronal cells,3,-6.03,0,0,1,0,0,0,0,0,0,0,0,1,1,0
+retinal bipolar cells,neuronal cells,4,-4.69,1,0,1,0,0,0,0,0,0,0,0,1,1,0
+retinal ganglion cells,neuronal cells,3,-7.07,0,0,1,0,0,0,0,0,0,0,0,1,1,0
+retinal horizontal cells,neuronal cells,3,-7.20,0,0,1,0,0,0,0,0,0,0,0,1,1,0
+retinal pigment epithelial cells,pigment cells,4,-4.32,1,0,0,0,1,0,0,0,0,0,1,0,1,0
+rod photoreceptor cells,neuronal cells,3,-4.61,0,0,1,0,0,1,0,0,0,0,0,0,1,0
+salivary acinar cells,glandular epithelial cells,13,4.11,1,1,1,1,1,1,1,1,1,1,0,1,1,1
+salivary basal cells,specialized epithelial cells,13,6.11,1,1,1,1,1,1,1,1,1,1,1,1,0,1
+salivary duct cells,specialized epithelial cells,8,-2.70,1,0,1,1,0,0,0,1,1,1,1,0,1,0
+salivary ionocytes,specialized epithelial cells,9,-0.05,1,0,1,1,1,0,1,1,0,1,1,0,1,0
+salivary myoepithelial cells,specialized epithelial cells,14,7.19,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+schwann cells,glial cells,11,0.86,1,1,1,0,1,1,1,1,1,1,0,1,0,1
+sertoli cells,specialized epithelial cells,6,-2.04,0,1,0,0,1,0,0,0,0,1,1,1,1,0
+smooth muscle cells,muscle cells,10,6.64,1,1,1,1,1,1,1,1,0,1,0,0,0,1
+somatotrophs,endocrine cells,3,-3.10,0,0,0,0,0,1,0,0,1,0,0,0,1,0
+submucosal glandular cells,glandular epithelial cells,8,-0.18,0,0,1,1,0,1,1,1,1,0,0,1,0,1
+suprabasal keratinocytes,squamous epithelial cells,11,8.95,1,1,1,1,1,0,1,1,1,0,1,1,0,1
+syncytiotrophoblasts,trophoblast cells,9,5.15,1,1,0,1,1,0,1,1,1,0,0,1,0,1
+t-cells,blood and immune cells,11,0.32,1,1,1,1,0,1,1,1,1,1,1,0,1,0
+thymic myoid cells,mesenchymal cells,12,8.78,1,1,1,0,1,1,1,1,0,1,1,1,1,1
+thymocytes,blood and immune cells,8,-2.45,0,1,0,0,0,1,1,0,1,1,1,1,1,0
+thyrotrophs,endocrine cells,4,-3.20,0,0,1,0,0,1,0,0,0,0,0,1,1,0
+transitional alveolar cells,specialized epithelial cells,11,3.42,1,0,1,1,1,1,1,1,0,1,1,1,0,1
+tuft cells,specialized epithelial cells,0,-9.49,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+undifferentiated spermatogonia,germ cells,2,-8.96,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+urothelial cells,specialized epithelial cells,14,16.85,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+vascular endothelial cells,endothelial and mural cells,14,6.29,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+vascular smooth muscle cells,endothelial and mural cells,11,5.41,1,1,1,1,1,1,1,0,1,1,0,1,0,1

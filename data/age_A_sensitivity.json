@@ -1,0 +1,129 @@
+{
+  "full": {
+    "N": 14,
+    "rho": -0.382,
+    "p_twotailed": 0.1776,
+    "bootstrap_ci": [
+      -0.846,
+      0.226
+    ],
+    "bootstrap_mean": -0.372
+  },
+  "without_nrf2": {
+    "N": 13,
+    "rho": -0.657,
+    "p_twotailed": 0.0147,
+    "bootstrap_ci": [
+      -0.892,
+      -0.174
+    ]
+  },
+  "loo_range": [
+    -0.657,
+    -0.266
+  ],
+  "loo_results": [
+    {
+      "pathway": "NF-\u03baB / I\u03baB\u03b1",
+      "rho": -0.3617461636236975,
+      "p": 0.2245401445499513,
+      "delta": 0.020347430191987037,
+      "significant": false
+    },
+    {
+      "pathway": "p53 / Mdm2",
+      "rho": -0.43839942940257776,
+      "p": 0.13400645585784254,
+      "delta": -0.05630583558689323,
+      "significant": false
+    },
+    {
+      "pathway": "ERK / DUSP",
+      "rho": -0.26591440799828486,
+      "p": 0.3798743224292842,
+      "delta": 0.11617918581739967,
+      "significant": false
+    },
+    {
+      "pathway": "Wnt / APC-Axin",
+      "rho": -0.3768249752387278,
+      "p": 0.20437405160056032,
+      "delta": 0.005268618576956707,
+      "significant": false
+    },
+    {
+      "pathway": "Notch / FBXW7",
+      "rho": -0.37066628522494166,
+      "p": 0.21246921806942912,
+      "delta": 0.011427308590742868,
+      "significant": false
+    },
+    {
+      "pathway": "Circadian (CLOCK-BMAL1 / PER-CRY)",
+      "rho": -0.3617461636236975,
+      "p": 0.2245401445499513,
+      "delta": 0.020347430191987037,
+      "significant": false
+    },
+    {
+      "pathway": "Hippo / LATS",
+      "rho": -0.440764146456963,
+      "p": 0.13167874992149495,
+      "delta": -0.05867055264127846,
+      "significant": false
+    },
+    {
+      "pathway": "mTOR / TSC",
+      "rho": -0.3617137104946983,
+      "p": 0.22458480938006933,
+      "delta": 0.020379883320986225,
+      "significant": false
+    },
+    {
+      "pathway": "JAK-STAT / SOCS",
+      "rho": -0.3554190594975055,
+      "p": 0.23335074041601253,
+      "delta": 0.02667453431817901,
+      "significant": false
+    },
+    {
+      "pathway": "TGF-\u03b2 / SMAD6-7",
+      "rho": -0.3722801711975988,
+      "p": 0.21032902741051362,
+      "delta": 0.00981342261808571,
+      "significant": false
+    },
+    {
+      "pathway": "NRF2 / KEAP1",
+      "rho": -0.6570081226004562,
+      "p": 0.014694469008688761,
+      "delta": -0.27491452878477163,
+      "significant": true
+    },
+    {
+      "pathway": "Calcium / SERCA",
+      "rho": -0.30759828817098894,
+      "p": 0.3066025349303453,
+      "delta": 0.07449530564469559,
+      "significant": false
+    },
+    {
+      "pathway": "Cell Cycle CKI / CDK",
+      "rho": -0.369741799012436,
+      "p": 0.21370122458698745,
+      "delta": 0.01235179480324855,
+      "significant": false
+    },
+    {
+      "pathway": "NFAT / RCAN",
+      "rho": -0.2954250313714594,
+      "p": 0.32710994739933663,
+      "delta": 0.0866685624442251,
+      "significant": false
+    }
+  ],
+  "n_become_significant": 1,
+  "influential_loops": [
+    "NRF2 / KEAP1"
+  ]
+}

@@ -1,0 +1,23 @@
+loop_id,pathway_name,activator,inhibitor,M.musculus,R.norvegicus,C.l.familiaris,G.gallus,X.tropicalis,D.rerio,C.intestinalis,S.purpuratus,D.melanogaster,C.elegans,N.vectensis,S.cerevisiae,S.pombe,A.thaliana,D.discoideum,n_species_both
+1,NF-κB / IκBα,RELA,NFKBIA,1,0,1,1,1,1,0,0,1,0,0,0,0,0,0,6
+2,p53 / Mdm2,TP53,MDM2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,7
+3,ERK / DUSP,MAPK1,DUSP1,1,1,1,1,1,1,0,0,1,1,0,0,1,0,1,10
+4,Wnt / APC-Axin,CTNNB1,AXIN2,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,8
+5,Notch / FBXW7,NOTCH1,FBXW7,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,6
+6,Circadian (CLOCK-BMAL1 / PER-CRY),ARNTL,PER2,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,8
+7,Hippo / LATS,YAP1,LATS1,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,8
+8,mTOR / TSC,MTOR,TSC1,1,1,1,1,1,1,1,0,1,0,0,0,1,0,0,9
+9,JAK-STAT / SOCS,STAT3,SOCS3,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,6
+10,TGF-β / SMAD6-7,SMAD3,SMAD7,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,7
+11,NRF2 / KEAP1,NFE2L2,KEAP1,1,1,1,0,1,1,0,0,0,0,0,0,0,1,0,6
+12,Hedgehog / SUFU,GLI1,SUFU,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,7
+13,UPR / IRE1-BiP,ERN1,HSPA5,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,8
+14,Calcium / SERCA,PLCG1,ATP2A2,1,1,1,1,1,1,1,0,1,1,0,1,0,0,0,10
+15,Cell Cycle CKI / CDK,CDK2,CDKN1A,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,7
+16,Rb / E2F,E2F1,RB1,1,1,1,1,1,1,0,0,1,1,0,0,0,1,1,10
+17,HIF / VHL,HIF1A,VHL,1,1,0,1,1,1,0,0,1,0,0,0,0,0,0,6
+18,NFAT / RCAN,NFATC1,RCAN1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,6
+19,PI3K-AKT / PTEN,PIK3CA,PTEN,0,0,1,1,1,1,1,0,1,0,0,0,0,0,0,6
+20,Myc / FBXW7,MYC,FBXW7,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,7
+21,Id / bHLH,TCF3,ID1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,0,5
+22,IκBζ / IL-6,IL6,NFKBIZ,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,5

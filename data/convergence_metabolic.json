@@ -1,0 +1,19 @@
+{
+  "convergence": {
+    "spearman_rho": 0.365,
+    "spearman_p": 0.1136,
+    "partial_r": 0.196,
+    "partial_p": 0.4074,
+    "high_conv_mean_cgc": 0.511,
+    "low_conv_mean_cgc": 0.299,
+    "mann_whitney_p": 0.0493
+  },
+  "metabolic": {
+    "regulatory_n": 34,
+    "regulatory_cgc": 13,
+    "enzymatic_n": 50,
+    "enzymatic_cgc": 7,
+    "fisher_odds": 3.8,
+    "fisher_p": 0.0111
+  }
+}

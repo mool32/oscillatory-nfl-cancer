@@ -1,0 +1,13 @@
+{
+  "n_immune": 22,
+  "n_epithelial": 60,
+  "immune_mean_ratio": 0.9165684121921142,
+  "epithelial_mean_ratio": 1.075440118882572,
+  "mannwhitney_U": 542.0,
+  "p_twosided": 0.21880596142660402,
+  "p_onesided": 0.8925446577260164,
+  "bootstrap_ci": [
+    -0.36964420430145123,
+    0.06683592458475966
+  ]
+}

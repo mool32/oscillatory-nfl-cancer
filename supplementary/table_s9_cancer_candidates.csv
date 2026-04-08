@@ -1,0 +1,27 @@
+Rank,Gene,IntOGen Validated,Source
+1,DLL1,No,Eigenspace proximity to CGC centroid
+2,NOTCH3,Yes,Eigenspace proximity to CGC centroid
+3,DLL4,Yes,Eigenspace proximity to CGC centroid
+4,MAML1,Yes,Eigenspace proximity to CGC centroid
+5,RBPJ,Yes,Eigenspace proximity to CGC centroid
+6,NOTCH4,Yes,Eigenspace proximity to CGC centroid
+7,JAG1,Yes,Eigenspace proximity to CGC centroid
+8,HES1,Yes,Eigenspace proximity to CGC centroid
+9,JAG2,No,Eigenspace proximity to CGC centroid
+10,PMAIP1,Yes,Eigenspace proximity to CGC centroid
+11,BBC3,Yes,Eigenspace proximity to CGC centroid
+12,SMURF2,No,Eigenspace proximity to CGC centroid
+13,SMAD7,Yes,Eigenspace proximity to CGC centroid
+14,SMURF1,Yes,Eigenspace proximity to CGC centroid
+15,BMPR2,Yes,Eigenspace proximity to CGC centroid
+16,PPARD,No,Eigenspace proximity to CGC centroid
+17,RXRA,Yes,Eigenspace proximity to CGC centroid
+18,NR1H3,No,Eigenspace proximity to CGC centroid
+19,NR1H2,No,Eigenspace proximity to CGC centroid
+20,PPARA,No,Eigenspace proximity to CGC centroid
+
+Summary,,,
+Total candidates,20,,
+IntOGen validated,13,,
+Precision,65%,,
+Enrichment p,0.0,,

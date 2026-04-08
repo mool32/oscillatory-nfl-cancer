@@ -1,0 +1,8 @@
+{
+  "test1_mean_r": 0.319,
+  "test1_ttest_p": 0.0012786205035177282,
+  "test2_rho": 0.41,
+  "test2_p": 1.3233190576737656e-07,
+  "n_receptor_genes": 222,
+  "n_cell_types": 154
+}

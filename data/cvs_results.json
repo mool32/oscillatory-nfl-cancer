@@ -1,0 +1,8 @@
+{
+  "test_A_accuracy": 1.0,
+  "test_A_n": 24,
+  "test_D_auc_cvs": 0.6454861111111111,
+  "test_D_auc_rds": 0.6454861111111111,
+  "test_D_auc_p1": 0.5,
+  "test_D_auc_loops": 0.5732638888888889
+}

@@ -1,0 +1,17 @@
+{
+  "baseline_rho": 0.689,
+  "loo_range": [
+    0.644,
+    0.783
+  ],
+  "perturb_range": [
+    0.602,
+    0.744
+  ],
+  "worst_triple_rho": 0.714,
+  "overall_min_rho": 0.602,
+  "go_proxy_rho": 0.632,
+  "go_proxy_p": 0.002803,
+  "go_vs_manual_rho": 0.889,
+  "robust": false
+}

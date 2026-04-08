@@ -1,0 +1,3819 @@
+{
+  "ENSG00000044574": {
+    "gene_name": "HSPA5",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000018294",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845009518",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000026864",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00002008",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "WBGene00002007",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0001218",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000009445",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSCING00000009590",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000103846",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000016838",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010027969",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "schizosaccharomyces_pombe": [
+        {
+          "target_id": "SPAC1F5.06",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0273093",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0273813",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "saccharomyces_cerevisiae": [
+        {
+          "target_id": "YKL073W",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YER103W",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YAL005C",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YLL024C",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YBL075C",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:48:53"
+  },
+  "ENSG00000079999": {
+    "gene_name": "KEAP1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000020878",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845026598",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000003308",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000074634",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000011638",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "arabidopsis_thaliana": [
+        {
+          "target_id": "AT5G26960",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G55270",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G01660",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G01160",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G61600",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G46260",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G03030",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00012322",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0032485",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0034396",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0030417",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0038475",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0030961",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0280513",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0272214",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:02"
+  },
+  "ENSG00000081721": {
+    "gene_name": "DUSP1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000003100",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845027806",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000026659",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000076330",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000000786",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010022463",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00007302",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00014074",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00007697",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00017428",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0031044",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "schizosaccharomyces_pombe": [
+        {
+          "target_id": "SPBC17A3.06",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0270688",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0269918",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:09"
+  },
+  "ENSG00000100030": {
+    "gene_name": "MAPK1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000001849",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845026389",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000063358",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00003401",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0003256",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000007067",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000027552",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000018576",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010024358",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "saccharomyces_cerevisiae": [
+        {
+          "target_id": "YKL161C",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YHR030C",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "arabidopsis_thaliana": [
+        {
+          "target_id": "AT4G13020",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G18150",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G73670",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G18040",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G01450",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G42880",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G01595",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G53510",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G14720",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G07880",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G45640",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G01560",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G46070",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G43790",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G59790",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G01370",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G11330",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G19010",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G17530",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G35500",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "schizosaccharomyces_pombe": [
+        {
+          "target_id": "SPAC31G5.09c",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "SPBC119.08",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0270218",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0286353",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:14"
+  },
+  "ENSG00000100644": {
+    "gene_name": "HIF1A",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000008292",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845023223",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000021109",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00001851",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0262139",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0266411",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000002100",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSCING00000021869",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000034293",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000014449",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010017810",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:17"
+  },
+  "ENSG00000100906": {
+    "gene_name": "NFKBIA",
+    "orthologs": {
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845002047",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000021025",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00011423",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00011240",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0036053",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0000250",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0043884",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0261554",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000015352",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSCING00000013573",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000005481",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSDARG00000007693",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000017950",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010005913",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:20"
+  },
+  "ENSG00000101412": {
+    "gene_name": "E2F1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000072439",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845025182",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000027490",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00009899",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00001162",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00001161",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000014484",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000103868",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000046118",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010022055",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "arabidopsis_thaliana": [
+        {
+          "target_id": "AT3G01330",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G48160",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G14960",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G22220",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G36010",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G47870",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0011766",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0024371",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0284129",
+          "orthology_type": "ortholog_one2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:24"
+  },
+  "ENSG00000101665": {
+    "gene_name": "SMAD7",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000018359",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845017036",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000025880",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00000910",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00006445",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00000904",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0020493",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0025800",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000005942",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSCING00000009022",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000016858",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000020317",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010012323",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSGALG00010009910",
+          "orthology_type": "ortholog_one2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:28"
+  },
+  "ENSG00000107882": {
+    "gene_name": "SUFU",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000019807",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845025024",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000025231",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0005355",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000008083",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000056801",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000015219",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010018581",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:30"
+  },
+  "ENSG00000109670": {
+    "gene_name": "FBXW7",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000010889",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845007020",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000028086",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0041171",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000001520",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSCING00000010722",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000060994",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000041067",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSXETG00000043535",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSXETG00000009388",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSXETG00000043749",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSXETG00000046747",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSXETG00000047734",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSXETG00000046310",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSXETG00000045228",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSXETG00000048043",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSXETG00000036232",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010007590",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "saccharomyces_cerevisiae": [
+        {
+          "target_id": "YKR036C",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YJL112W",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "arabidopsis_thaliana": [
+        {
+          "target_id": "AT3G51930",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G49040",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G24130",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G24530",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G50120",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G40880",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G21651",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G25440",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G49200",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G51980",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G47610",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G18950",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G49450",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G50390",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G34380",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G26490",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G11270",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G52030",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "schizosaccharomyces_pombe": [
+        {
+          "target_id": "SPBC56F2.01",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "SPCC126.01c",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0291716",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0277471",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0281485",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0287961",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:36"
+  },
+  "ENSG00000111087": {
+    "gene_name": "GLI1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000025120",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845011836",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000025407",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000101244",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000036606",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010025727",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00006604",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00010936",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00004335",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0004859",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0039039",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0003002",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0291342",
+          "orthology_type": "ortholog_one2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:39"
+  },
+  "ENSG00000116044": {
+    "gene_name": "NFE2L2",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000001548",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845020022",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000015839",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000003373",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000042824",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000001808",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010024107",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "arabidopsis_thaliana": [
+        {
+          "target_id": "AT5G21010",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G43700",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G03740",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:42"
+  },
+  "ENSG00000121879": {
+    "gene_name": "PIK3CA",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000056371",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845015587",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000027665",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00009552",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0015278",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000023383",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000075456",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000007252",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010018296",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:45"
+  },
+  "ENSG00000123374": {
+    "gene_name": "CDK2",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000006469",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845005902",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000025358",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000026577",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000009444",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010024756",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00010349",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00013917",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00015203",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00008095",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0028410",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "saccharomyces_cerevisiae": [
+        {
+          "target_id": "YFL029C",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:47"
+  },
+  "ENSG00000124181": {
+    "gene_name": "PLCG1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000051490",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845030031",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000016933",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00004039",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00004045",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00004038",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0004611",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0003416",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000004554",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSCING00000014634",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSCING00000012491",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSCING00000008529",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSCING00000023564",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSCING00000018837",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSCING00000004355",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000038442",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000019423",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010022365",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "saccharomyces_cerevisiae": [
+        {
+          "target_id": "YPL268W",
+          "orthology_type": "ortholog_one2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:50"
+  },
+  "ENSG00000124762": {
+    "gene_name": "CDKN1A",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000000521",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845009606",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000023067",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000076554",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000024887",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010025613",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "arabidopsis_thaliana": [
+        {
+          "target_id": "AT2G32710",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G23430",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G50630",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00000517",
+          "orthology_type": "ortholog_one2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:52"
+  },
+  "ENSG00000125968": {
+    "gene_name": "ID1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000021750",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845018646",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000042745",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0000575",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000019712",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSCING00000024843",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000040764",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:49:55"
+  },
+  "ENSG00000131023": {
+    "gene_name": "LATS1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000014916",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845018656",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000040021",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00007047",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00011992",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0011739",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000004083",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000003751",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000012033",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010005504",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "saccharomyces_cerevisiae": [
+        {
+          "target_id": "YGR092W",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YPR111W",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "arabidopsis_thaliana": [
+        {
+          "target_id": "AT5G62310",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "schizosaccharomyces_pombe": [
+        {
+          "target_id": "SPAC24B11.11c",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "SPCC417.06c",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0280717",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0278845",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0286841",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0289543",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0290859",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0284839",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:04"
+  },
+  "ENSG00000131196": {
+    "gene_name": "NFATC1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000017146",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845000073",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000033016",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000036168",
+          "orthology_type": "ortholog_one2one"
+        },
+        {
+          "target_id": "ENSDARG00000079972",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000000853",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010007252",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:08"
+  },
+  "ENSG00000132326": {
+    "gene_name": "PER2",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000020254",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845029967",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000055866",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00018572",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0003068",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000034503",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000008256",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010025047",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:13"
+  },
+  "ENSG00000133794": {
+    "gene_name": "ARNTL",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000014448",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845020372",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000055116",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00000095",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0264075",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0261703",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0002723",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000008102",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000035732",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSDARG00000006791",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000024204",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010021726",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "arabidopsis_thaliana": [
+        {
+          "target_id": "AT5G54680",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G51070",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G23210",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G14410",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G47640",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G19860",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G36060",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:17"
+  },
+  "ENSG00000134086": {
+    "gene_name": "VHL",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000010258",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000033933",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0041174",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000070617",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000001448",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010019006",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "arabidopsis_thaliana": [
+        {
+          "target_id": "AT1G75380",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G19660",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:20"
+  },
+  "ENSG00000135679": {
+    "gene_name": "MDM2",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000006304",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845016387",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000020184",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000001188",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000033443",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000001434",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010012683",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:23"
+  },
+  "ENSG00000136244": {
+    "gene_name": "IL6",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000010278",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845008825",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000025746",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000049395",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010001941",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:28"
+  },
+  "ENSG00000136997": {
+    "gene_name": "MYC",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000004500",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845012475",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000022346",
+          "orthology_type": "ortholog_one2one"
+        },
+        {
+          "target_id": "ENSMUSG00000049086",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000045695",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSDARG00000007241",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSDARG00000077473",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000025372",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010007986",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "arabidopsis_thaliana": [
+        {
+          "target_id": "AT4G16430",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G01260",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G46510",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G31210",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G31215",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G31220",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G06170",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G06120",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G24140",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G29930",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G41315",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G63650",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G09820",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G00480",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:32"
+  },
+  "ENSG00000137693": {
+    "gene_name": "YAP1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000005933",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845001157",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000053110",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00008748",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000032689",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010007923",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0034970",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000068401",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:34"
+  },
+  "ENSG00000139687": {
+    "gene_name": "RB1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000016029",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845025645",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000022105",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00003020",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0038390",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0015799",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000006782",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000031493",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010003900",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "arabidopsis_thaliana": [
+        {
+          "target_id": "AT3G12280",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0290551",
+          "orthology_type": "ortholog_one2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:43"
+  },
+  "ENSG00000141510": {
+    "gene_name": "TP53",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000010756",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845024647",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000059552",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0039044",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000002175",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSCING00000001960",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000035559",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000025055",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010000434",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:45"
+  },
+  "ENSG00000144802": {
+    "gene_name": "NFKBIZ",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000031163",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845021884",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000035356",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000102097",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000032514",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010006156",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:47"
+  },
+  "ENSG00000148400": {
+    "gene_name": "NOTCH1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000019322",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845005453",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000026923",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000103554",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSDARG00000052094",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000000757",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010028107",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:53"
+  },
+  "ENSG00000152284": {
+    "gene_name": "TCF3",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000014753",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845014626",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000055799",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000007369",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSDARG00000038159",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000019015",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010020180",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00004077",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0085432",
+          "orthology_type": "ortholog_one2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:56"
+  },
+  "ENSG00000159200": {
+    "gene_name": "RCAN1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000001979",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845025941",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000022951",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00004321",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0086370",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000013221",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000099004",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSDARG00000003109",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000045333",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010012879",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0271536",
+          "orthology_type": "ortholog_one2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:50:59"
+  },
+  "ENSG00000165699": {
+    "gene_name": "TSC1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000011470",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845016069",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000026812",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0026317",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000004555",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000026048",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSDARG00000057918",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000006262",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010028818",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "schizosaccharomyces_pombe": [
+        {
+          "target_id": "SPAC22F3.13",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:51:03"
+  },
+  "ENSG00000166949": {
+    "gene_name": "SMAD3",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000008620",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845016639",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000032402",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000006188",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000036096",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSDARG00000010207",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000007804",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010018099",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:51:07"
+  },
+  "ENSG00000168036": {
+    "gene_name": "CTNNB1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000054172",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845017609",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000006932",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000007020",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000023472",
+          "orthology_type": "ortholog_one2one"
+        },
+        {
+          "target_id": "ENSDARG00000014571",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010016258",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "arabidopsis_thaliana": [
+        {
+          "target_id": "AT4G31890",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G25130",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G13060",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G19330",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G36030",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G26600",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G34940",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G66200",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G44120",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G77460",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G22125",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G61350",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G16490",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G27430",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G58680",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G54790",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G21350",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G01400",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G20170",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G42340",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G01830",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G08315",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G28830",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G46510",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G23180",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G54850",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G10560",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G60190",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G14510",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G03440",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G12710",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G40140",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G47820",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G65200",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G62560",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G29340",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G05810",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G01830",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G45720",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G50900",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G07360",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G44900",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G60350",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G23030",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G71020",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00001979",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00000238",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0000117",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000013848",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:51:13"
+  },
+  "ENSG00000168610": {
+    "gene_name": "STAT3",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000019742",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845009322",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000004040",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00013111",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00010251",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000024295",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSCING00000010308",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000022712",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000007642",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010026098",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0293532",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0275167",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0281381",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0268638",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:51:16"
+  },
+  "ENSG00000168646": {
+    "gene_name": "AXIN2",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000055010",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845028532",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000000142",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000100149",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000010058",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSXETG00000013607",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010029221",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00001145",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00004345",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00004344",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00004349",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00001179",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00004350",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0024941",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0026597",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0282583",
+          "orthology_type": "ortholog_one2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:51:21"
+  },
+  "ENSG00000171862": {
+    "gene_name": "PTEN",
+    "orthologs": {
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845029443",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0026379",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000002379",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000071018",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSDARG00000056623",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000009268",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010022667",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "saccharomyces_cerevisiae": [
+        {
+          "target_id": "YNL128W",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "arabidopsis_thaliana": [
+        {
+          "target_id": "AT3G50110",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "AT3G19420",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "AT5G39400",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "schizosaccharomyces_pombe": [
+        {
+          "target_id": "SPBC609.02",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0286557",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:51:28"
+  },
+  "ENSG00000173039": {
+    "gene_name": "RELA",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000030888",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845019016",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000024927",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0011274",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0260632",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000098696",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000026173",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010001277",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:51:37"
+  },
+  "ENSG00000174437": {
+    "gene_name": "ATP2A2",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000001285",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845027628",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000029467",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00000834",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00015660",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00015338",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00012341",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00004063",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00019875",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00003153",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00007248",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "WBGene00013672",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0266433",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0266432",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0052000",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0052451",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0002921",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000002536",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSCING00000021889",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000005122",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000002512",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010025130",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "saccharomyces_cerevisiae": [
+        {
+          "target_id": "YDR270W",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YDR039C",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YDR038C",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YDR040C",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YPL036W",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YGL008C",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YOR291W",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YGL167C",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YBR295W",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "YGL006W",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "arabidopsis_thaliana": [
+        {
+          "target_id": "AT1G10130",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G63440",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G33520",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G21930",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G07810",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G07670",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G00900",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G22950",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G37640",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G27770",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G60330",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G44790",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G30110",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G30120",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G63380",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G21180",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G29900",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G57110",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G53010",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G22910",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G80660",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G19110",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G57330",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G41560",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G11730",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G18960",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G62670",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G47950",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT3G42640",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT5G57350",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G24520",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT2G07560",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G30190",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT1G17260",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "AT4G37270",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "schizosaccharomyces_pombe": [
+        {
+          "target_id": "SPBC31E1.02c",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "SPBC29A3.01",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "SPBC839.06",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "SPCC1672.11c",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "SPAC29A4.19c",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "SPCC1020.01c",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "SPAC1071.10c",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "SPAPB2B4.04c",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0282817",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0273235",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0273675",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0284849",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0284955",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0284605",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0269590",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0284141",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0279183",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0268810",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0277861",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0267924",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0289473",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:51:52"
+  },
+  "ENSG00000178607": {
+    "gene_name": "ERN1",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000012864",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845022274",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000020715",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000020483",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000049271",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010029610",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000013997",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "ENSDARG00000087767",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0270894",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0273171",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0288803",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0273903",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0273857",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0273333",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0269632",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "DDB_G0272987",
+          "orthology_type": "ortholog_many2many"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:51:54"
+  },
+  "ENSG00000184557": {
+    "gene_name": "SOCS3",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000063373",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845014621",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000053113",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0033266",
+          "orthology_type": "ortholog_many2many"
+        },
+        {
+          "target_id": "FBgn0041184",
+          "orthology_type": "ortholog_many2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000025428",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSDARG00000026611",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000024632",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010029295",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:51:59"
+  },
+  "ENSG00000198793": {
+    "gene_name": "MTOR",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000009615",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845002541",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000028991",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0021796",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "ciona_intestinalis": [
+        {
+          "target_id": "ENSCING00000018244",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSCING00000024313",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSCING00000020418",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSCING00000001460",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "ENSCING00000019078",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000053196",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000017426",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010021746",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "schizosaccharomyces_pombe": [
+        {
+          "target_id": "SPBC30D10.10c",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "SPBC216.07c",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "dictyostelium_discoideum": [
+        {
+          "target_id": "DDB_G0281569",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-03-26 11:52:02"
+  }
+}

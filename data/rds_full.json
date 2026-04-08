@@ -1,0 +1,620 @@
+{
+  "rds": {
+    "AKT1": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "AKT2": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "AKT3": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "AXIN1": {
+      "RDS": -1,
+      "abs_RDS": 1,
+      "n_loops": 1,
+      "n_irreplaceable": 1,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "BBC3": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "BCL2": {
+      "RDS": 2,
+      "abs_RDS": 2,
+      "n_loops": 4,
+      "n_irreplaceable": 2,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "BID": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "BMPR1A": {
+      "RDS": 1,
+      "abs_RDS": 1,
+      "n_loops": 2,
+      "n_irreplaceable": 1,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "BMPR1B": {
+      "RDS": 1,
+      "abs_RDS": 1,
+      "n_loops": 2,
+      "n_irreplaceable": 1,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "BMPR2": {
+      "RDS": 1,
+      "abs_RDS": 1,
+      "n_loops": 2,
+      "n_irreplaceable": 1,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "CCNE1": {
+      "RDS": 7,
+      "abs_RDS": 7,
+      "n_loops": 8,
+      "n_irreplaceable": 7,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "CDH1": {
+      "RDS": -1,
+      "abs_RDS": 1,
+      "n_loops": 1,
+      "n_irreplaceable": 1,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "CDK2": {
+      "RDS": 11,
+      "abs_RDS": 11,
+      "n_loops": 12,
+      "n_irreplaceable": 11,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "CDKN1A": {
+      "RDS": -1,
+      "abs_RDS": 1,
+      "n_loops": 4,
+      "n_irreplaceable": 1,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "CDKN1B": {
+      "RDS": -1,
+      "abs_RDS": 1,
+      "n_loops": 6,
+      "n_irreplaceable": 1,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "CDKN2A": {
+      "RDS": -1,
+      "abs_RDS": 1,
+      "n_loops": 2,
+      "n_irreplaceable": 1,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "CISH": {
+      "RDS": -1,
+      "abs_RDS": 1,
+      "n_loops": 5,
+      "n_irreplaceable": 1,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "CSF1R": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 2,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "CSNK1E": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "CTNNB1": {
+      "RDS": 1,
+      "abs_RDS": 1,
+      "n_loops": 1,
+      "n_irreplaceable": 1,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "E2F1": {
+      "RDS": 1,
+      "abs_RDS": 1,
+      "n_loops": 3,
+      "n_irreplaceable": 1,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "E2F2": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "E2F3": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "FOXO1": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 2,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "FOXO3": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 2,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "FOXO4": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 2,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "FOXO6": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 2,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "GLI1": {
+      "RDS": 1,
+      "abs_RDS": 1,
+      "n_loops": 1,
+      "n_irreplaceable": 1,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "GLI2": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "GLI3": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "IRS1": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 3,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "IRS2": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 3,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "JAK1": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 10,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "JAK2": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 12,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "LEPR": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 3,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "MAPK1": {
+      "RDS": 6,
+      "abs_RDS": 6,
+      "n_loops": 13,
+      "n_irreplaceable": 6,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "MAPK14": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 3,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "MDM2": {
+      "RDS": 1,
+      "abs_RDS": 1,
+      "n_loops": 1,
+      "n_irreplaceable": 1,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "MTOR": {
+      "RDS": 3,
+      "abs_RDS": 3,
+      "n_loops": 6,
+      "n_irreplaceable": 3,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "PIK3CA": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 3,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "PIK3R1": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 3,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "PIK3R3": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 3,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "PMAIP1": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "PRLR": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "PTEN": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 3,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "PTK2": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 3,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "RB1": {
+      "RDS": -2,
+      "abs_RDS": 2,
+      "n_loops": 4,
+      "n_irreplaceable": 2,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "RBL1": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "RBL2": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "RELA": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "SIVA1": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "SMAD1": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "SMAD2": {
+      "RDS": 3,
+      "abs_RDS": 3,
+      "n_loops": 6,
+      "n_irreplaceable": 3,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "SMAD3": {
+      "RDS": 3,
+      "abs_RDS": 3,
+      "n_loops": 6,
+      "n_irreplaceable": 3,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "SMAD4": {
+      "RDS": 1,
+      "abs_RDS": 1,
+      "n_loops": 5,
+      "n_irreplaceable": 1,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "SMAD5": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "SMAD7": {
+      "RDS": -6,
+      "abs_RDS": 6,
+      "n_loops": 9,
+      "n_irreplaceable": 6,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "SOCS1": {
+      "RDS": -1,
+      "abs_RDS": 1,
+      "n_loops": 9,
+      "n_irreplaceable": 1,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "SOCS3": {
+      "RDS": -4,
+      "abs_RDS": 4,
+      "n_loops": 31,
+      "n_irreplaceable": 4,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "SOCS4": {
+      "RDS": -1,
+      "abs_RDS": 1,
+      "n_loops": 7,
+      "n_irreplaceable": 1,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "SOCS5": {
+      "RDS": -1,
+      "abs_RDS": 1,
+      "n_loops": 7,
+      "n_irreplaceable": 1,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "SOCS6": {
+      "RDS": -1,
+      "abs_RDS": 1,
+      "n_loops": 7,
+      "n_irreplaceable": 1,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "SOCS7": {
+      "RDS": -1,
+      "abs_RDS": 1,
+      "n_loops": 7,
+      "n_irreplaceable": 1,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "STAT1": {
+      "RDS": 1,
+      "abs_RDS": 1,
+      "n_loops": 14,
+      "n_irreplaceable": 1,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "STAT2": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 4,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "STAT3": {
+      "RDS": 8,
+      "abs_RDS": 8,
+      "n_loops": 48,
+      "n_irreplaceable": 8,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "STAT5A": {
+      "RDS": 2,
+      "abs_RDS": 2,
+      "n_loops": 14,
+      "n_irreplaceable": 2,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "STAT5B": {
+      "RDS": 2,
+      "abs_RDS": 2,
+      "n_loops": 14,
+      "n_irreplaceable": 2,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "TFDP1": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "TGFBR1": {
+      "RDS": 1,
+      "abs_RDS": 1,
+      "n_loops": 3,
+      "n_irreplaceable": 1,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "TNFAIP3": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "TP53": {
+      "RDS": -6,
+      "abs_RDS": 6,
+      "n_loops": 6,
+      "n_irreplaceable": 6,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "TP73": {
+      "RDS": -1,
+      "abs_RDS": 1,
+      "n_loops": 1,
+      "n_irreplaceable": 1,
+      "sign": -1,
+      "sign_label": "recovery"
+    },
+    "TRAF6": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "TYK2": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 10,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    },
+    "YAP1": {
+      "RDS": 0,
+      "abs_RDS": 0,
+      "n_loops": 1,
+      "n_irreplaceable": 0,
+      "sign": 1,
+      "sign_label": "rise"
+    }
+  },
+  "test_results": {
+    "rpb_rds": 0.16338151320624164,
+    "p_rds": 0.15847565137053543,
+    "rpb_loops": 0.08082341139183116,
+    "p_loops": 0.48764373199127947,
+    "rho": 0.2762654991543491,
+    "p_rho": 0.01570379209428062
+  }
+}

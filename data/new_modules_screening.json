@@ -1,0 +1,43 @@
+{
+  "screened": 6,
+  "included": 6,
+  "included_modules": [
+    "AMPK",
+    "SREBP",
+    "ATR/CHK1",
+    "Rho/ROCK/MRTF",
+    "PPAR/LXR",
+    "Autophagy/TFEB"
+  ],
+  "excluded_modules": [],
+  "criteria_summary": {
+    "AMPK": {
+      "score": 5,
+      "missing": []
+    },
+    "SREBP": {
+      "score": 5,
+      "missing": []
+    },
+    "ATR/CHK1": {
+      "score": 4,
+      "missing": [
+        "tf_output"
+      ]
+    },
+    "Rho/ROCK/MRTF": {
+      "score": 5,
+      "missing": []
+    },
+    "PPAR/LXR": {
+      "score": 4,
+      "missing": [
+        "temporal_competence"
+      ]
+    },
+    "Autophagy/TFEB": {
+      "score": 5,
+      "missing": []
+    }
+  }
+}

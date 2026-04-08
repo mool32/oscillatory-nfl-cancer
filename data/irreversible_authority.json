@@ -1,0 +1,11 @@
+{
+  "n_modules": 20,
+  "ia_spearman_rho": 0.829,
+  "ia_spearman_p": 0.0,
+  "auth_spearman_rho": 0.752,
+  "auth_spearman_p": 0.0001,
+  "binary_split_p": 0.0003,
+  "irrev_mean_cgc": 0.561,
+  "rev_mean_cgc": 0.192,
+  "best_predictor": "Irreversible Authority (IA)"
+}

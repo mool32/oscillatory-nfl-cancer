@@ -1,0 +1,14 @@
+# Large data files
+data/kegg_negative_feedback_loops.csv
+data/rna_single_cell_type.tsv
+data/rna_single_cell_type_cell_types.tsv
+data/cosmic_cgc_full.txt
+data/*.tsv
+
+# Python
+__pycache__/
+*.pyc
+.DS_Store
+
+# KEGG raw files
+kegg_kgml/

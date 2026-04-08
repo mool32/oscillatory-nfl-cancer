@@ -1,0 +1,23 @@
+Loop ID,Pathway,Oldest Species,Age (Mya),N Species,Confidence,Asymmetry (A),Feedback Type,Cluster
+1,NF-κB / IκBα,D.melanogaster,797,6,medium,0.31,SEQ,I (transcriptional NF)
+2,p53 / Mdm2,C.intestinalis,684,7,medium,0.32,ENZ,I (transcriptional NF)
+3,ERK / DUSP,D.discoideum,1500,10,high,0.28,ENZ,I (transcriptional NF)
+4,Wnt / APC-Axin,C.elegans,797,8,high,0.47,SEQ,II (autorepressive)
+5,Notch / FBXW7,D.rerio,435,6,medium,0.47,ENZ,II (autorepressive)
+6,Circadian (CLOCK-BMAL1 / PER-CRY),C.elegans,797,8,high,0.42,SEQ,II (autorepressive)
+7,Hippo / LATS,C.elegans,797,8,high,0.68,ENZ,III (shuttling)
+8,mTOR / TSC,S.pombe,1105,9,high,0.35,ENZ,I (transcriptional NF)
+9,JAK-STAT / SOCS,D.rerio,435,6,medium,0.5,ENZ,II (autorepressive)
+10,TGF-β / SMAD6-7,C.intestinalis,684,7,medium,0.6,SEQ,III (shuttling)
+11,NRF2 / KEAP1,A.thaliana,1500,6,medium,0.68,SEQ,III (shuttling)
+12,Hedgehog / SUFU,D.melanogaster,797,7,medium,,ENZ,unclassified
+13,UPR / IRE1-BiP,D.discoideum,1500,8,high,,SEQ,unclassified
+14,Calcium / SERCA,S.cerevisiae,1105,10,high,0.2,ENZ,I (transcriptional NF)
+15,Cell Cycle CKI / CDK,C.elegans,797,7,medium,0.35,SEQ,I (transcriptional NF)
+16,Rb / E2F,D.discoideum,1500,10,high,,SEQ,unclassified
+17,HIF / VHL,D.melanogaster,797,6,medium,,SEQ,unclassified
+18,NFAT / RCAN,D.rerio,435,6,medium,0.68,SEQ,III (shuttling)
+19,PI3K-AKT / PTEN,D.melanogaster,797,6,medium,,ENZ,unclassified
+20,Myc / FBXW7,A.thaliana,1500,7,medium,,ENZ,unclassified
+21,Id / bHLH,D.melanogaster,797,5,medium,,SEQ,unclassified
+22,IκBζ / IL-6,X.tropicalis,352,5,medium,,SEQ,unclassified

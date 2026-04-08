@@ -1,0 +1,23 @@
+loop_id,pathway_name,activator_gene,activator_ensembl,inhibitor_gene,inhibitor_ensembl,feedback_type,mechanism,in_cancer_report,in_entropy_paper,literature_PMID
+1,NF-κB / IκBα,RELA,ENSG00000173039,NFKBIA,ENSG00000100906,SEQ,sequestration of NF-κB in cytoplasm,yes,yes,15516999
+2,p53 / Mdm2,TP53,ENSG00000141510,MDM2,ENSG00000135679,ENZ,E3 ubiquitin ligase targeting p53 for degradation,yes,yes,15838523
+3,ERK / DUSP,MAPK1,ENSG00000100030,DUSP1,ENSG00000081721,ENZ,dual-specificity phosphatase dephosphorylating ERK,yes,yes,17496910
+4,Wnt / APC-Axin,CTNNB1,ENSG00000168036,AXIN2,ENSG00000168646,SEQ,scaffold for β-catenin destruction complex,yes,yes,12717450
+5,Notch / FBXW7,NOTCH1,ENSG00000148400,FBXW7,ENSG00000109670,ENZ,F-box E3 ligase targeting NICD for proteasomal degradation,yes,yes,18023131
+6,Circadian (CLOCK-BMAL1 / PER-CRY),ARNTL,ENSG00000133794,PER2,ENSG00000132326,SEQ,transcriptional repression of CLOCK-BMAL1 by PER/CRY complex,yes,no,12397363
+7,Hippo / LATS,YAP1,ENSG00000137693,LATS1,ENSG00000131023,ENZ,kinase phosphorylating YAP for cytoplasmic retention/degradation,yes,yes,25049502
+8,mTOR / TSC,MTOR,ENSG00000198793,TSC1,ENSG00000165699,ENZ,GAP complex inhibiting Rheb GTPase upstream of mTORC1,yes,yes,15314020
+9,JAK-STAT / SOCS,STAT3,ENSG00000168610,SOCS3,ENSG00000184557,ENZ,pseudosubstrate inhibition of JAK + E3 ligase adapter,yes,yes,11909529
+10,TGF-β / SMAD6-7,SMAD3,ENSG00000166949,SMAD7,ENSG00000101665,SEQ,inhibitory SMAD blocks receptor phosphorylation of R-SMADs,yes,yes,9335507
+11,NRF2 / KEAP1,NFE2L2,ENSG00000116044,KEAP1,ENSG00000079999,SEQ,cytoplasmic sequestration and CUL3-mediated ubiquitination,yes,yes,15001544
+12,Hedgehog / SUFU,GLI1,ENSG00000111087,SUFU,ENSG00000107882,ENZ,cytoplasmic sequestration/degradation of GLI transcription factors,yes,yes,17360644
+13,UPR / IRE1-BiP,ERN1,ENSG00000178607,HSPA5,ENSG00000044574,SEQ,"BiP chaperone binds IRE1 lumenal domain, repressing activation",yes,no,15722559
+14,Calcium / SERCA,PLCG1,ENSG00000124181,ATP2A2,ENSG00000174437,ENZ,"SERCA pump restores ER Ca²⁺, terminating cytoplasmic signal",yes,no,12559096
+15,Cell Cycle CKI / CDK,CDK2,ENSG00000123374,CDKN1A,ENSG00000124762,SEQ,stoichiometric CDK inhibitor (p21) binding and inactivation,no,yes,8259215
+16,Rb / E2F,E2F1,ENSG00000101412,RB1,ENSG00000139687,SEQ,"Rb sequesters E2F, blocking transcriptional activation",no,yes,8259210
+17,HIF / VHL,HIF1A,ENSG00000100644,VHL,ENSG00000134086,SEQ,VHL E3 ligase targets hydroxylated HIF-1α for degradation,no,yes,10205047
+18,NFAT / RCAN,NFATC1,ENSG00000131196,RCAN1,ENSG00000159200,SEQ,"RCAN1 inhibits calcineurin phosphatase, blocking NFAT dephosphorylation",no,yes,11331884
+19,PI3K-AKT / PTEN,PIK3CA,ENSG00000121879,PTEN,ENSG00000171862,ENZ,lipid phosphatase dephosphorylating PIP3 to PIP2,no,yes,9468138
+20,Myc / FBXW7,MYC,ENSG00000136997,FBXW7,ENSG00000109670,ENZ,SCF-FBXW7 E3 ligase ubiquitinates phospho-Myc for proteasomal degradation,no,yes,15580293
+21,Id / bHLH,TCF3,ENSG00000152284,ID1,ENSG00000125968,SEQ,Id1 sequesters E2A/TCF3 bHLH factors via dominant-negative heterodimerization,no,yes,2289870
+22,IκBζ / IL-6,IL6,ENSG00000136244,NFKBIZ,ENSG00000144802,SEQ,"IκBζ modulates NF-κB target gene selectivity, dampening IL-6 loop",no,yes,15226429

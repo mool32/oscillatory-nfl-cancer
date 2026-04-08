@@ -1,0 +1,8 @@
+{
+  "n_raw_motifs": 228,
+  "n_unique_motifs": 128,
+  "n_modules": 59,
+  "n_hub_genes": 39,
+  "cgc_enrichment_OR": 1.238390092879257,
+  "cgc_enrichment_p": 0.6545347245180537
+}

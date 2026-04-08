@@ -1,0 +1,25 @@
+Module,IA Score,Authority,N Genes,N CGC,CGC Fraction,Irreversible Decisions
+p53,3,9,11,8,0.727,"apoptosis, senescence, DNA repair commitment"
+mTOR,1,3,10,3,0.300,growth commitment
+TGF-β,2,4,11,7,0.636,"EMT, growth arrest"
+Cell Cycle,2,4,13,8,0.615,"mitotic commitment, cytokinesis"
+NRF2,0,2,10,2,0.200,(reversible stress response)
+ATR/CHK1,2,2,9,2,0.222,"replication checkpoint, fork restart"
+Wnt,3,3,10,9,0.900,"terminal differentiation, stem cell fate, EMT"
+PI3K/PTEN,2,3,8,6,0.750,"survival, metabolic commitment"
+AMPK,1,3,10,4,0.400,metabolic switch
+NF-κB,2,4,15,4,0.267,"inflammatory commitment, survival decision"
+ERK/MAPK,2,3,15,9,0.600,proliferation vs differentiation
+SREBP,0,2,9,0,0.000,(reversible lipid regulation)
+PPAR/LXR,0,3,10,5,0.500,(reversible transcription)
+Autophagy,1,2,9,1,0.111,autophagic flux
+JAK-STAT,2,3,12,6,0.500,"immune activation, differentiation"
+Hippo,2,2,11,4,0.364,"organ size, contact inhibition"
+Circadian,0,2,11,1,0.091,(reversible oscillation)
+Rho/ROCK,1,2,10,2,0.200,cytoskeletal commitment
+Notch,3,2,13,4,0.308,"lateral inhibition, lineage commitment, angiogenesis"
+Calcium,1,2,10,2,0.200,NFAT activation
+
+Metric,Spearman rho,p-value,,,,
+IA,0.829,0.0,,,,
+Authority,0.752,0.0001,,,,

@@ -1,0 +1,13 @@
+{
+  "pc5_redundancy_rank": 4,
+  "pc5_bottleneck_rank": 4,
+  "eigenmode_redun_cgc_rho": -0.314,
+  "eigenmode_redun_cgc_p": 0.5441,
+  "module_redun_cgc_rho": -0.121,
+  "module_bottleneck_cgc_rho": 0.365,
+  "bottleneck_mean_cgc": 0.486,
+  "no_bottleneck_mean_cgc": 0.303,
+  "bottleneck_p": 0.0603,
+  "ia_rho": 0.829,
+  "ia_plus_bottleneck_rho": 0.869
+}
