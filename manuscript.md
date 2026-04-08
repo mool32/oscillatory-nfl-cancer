@@ -273,7 +273,7 @@ Processed cell annotations from the Mouse Organogenesis Cell Atlas (GEO: GSE1199
 
 ### Data and code availability
 
-All analysis scripts (step01 through step29), intermediate data files, and the complete NFL motif database are available at [repository URL to be added upon publication]. KEGG pathway data were accessed under academic license. The COSMIC CGC v103 is available at https://cancer.sanger.ac.uk/census. HPA data are available at https://www.proteinatlas.org. MOCA data are deposited at GEO (GSE119945).
+All analysis scripts (step01 through step29), intermediate data files, and the complete NFL motif database are available at https://github.com/mool32/oscillatory-nfl-cancer. KEGG pathway data were accessed via the KEGG API for academic research purposes in accordance with KEGG's terms of use (https://www.kegg.jp/kegg/legal.html); raw KGML files are not redistributed. The COSMIC CGC v103 is available at https://cancer.sanger.ac.uk/census. HPA data are available at https://www.proteinatlas.org. MOCA data are deposited at GEO (GSE119945).
 
 ---
 
