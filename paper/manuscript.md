@@ -2,9 +2,9 @@
 
 Theodor Spiro^1^
 
-^1^Independent Researcher
+^1^Vaika Inc., East Aurora, NY, USA
 
-**Correspondence:** theospirin@gmail.com
+**Correspondence:** tspiro@vaika.org
 
 ---
 
