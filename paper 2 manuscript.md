@@ -107,13 +107,15 @@ Having established that NFL membership is a specific cancer predictor (Part 1), 
 To extend the analysis beyond the 14 KEGG-derived modules, I screened six additional oscillatory pathways with documented or predicted negative feedback regulation: AMPK (energy sensing), SREBP (lipid homeostasis), ATR/CHK1 (replication checkpoint), Rho/ROCK (cytoskeletal dynamics), PPAR/LXR (nuclear receptor cycling), and Autophagy (ULK1/mTOR feedback). Each was confirmed to contain at least one NFL motif with 3 or more unique genes by the same extraction pipeline. The expanded set of 20 modules (Table S8) was used for all subsequent analyses.
 
 
-#### Three architectural hypotheses
+#### Four architectural hypotheses
 
 **Hypothesis 1: Maintenance cost.** Modules with higher expression (greater metabolic cost) should be harder to maintain and more vulnerable to cancer-causing mutations. Result: no significant correlation between module expression rank and CGC fraction (Spearman rho = 0.03, *p* = 0.96). **Rejected.**
 
 **Hypothesis 2: Convergence (hub degree).** Modules with more incoming connections from other pathways should be more vulnerable because more perturbations can reach them. Result: moderate correlation (partial rho = 0.25, *p* = 0.4 after controlling for total expression). **Insufficient.**
 
-**Hypothesis 3: Irreversible Authority (IA).** Modules that control more irreversible cell-fate decisions (apoptosis, senescence, terminal differentiation, DNA damage checkpoint commitment) should be more cancer-relevant because their disruption has irreversible phenotypic consequences. This hypothesis is developed in full below.
+**Hypothesis 3: Mutation trajectory ordering.** If cancer mutations sequentially disrupt the most vulnerable modules first, mutation order in multi-hit cancers should follow the vulnerability gradient (high to low). Empirical analysis of COSMIC mutation co-occurrence shows the inverse: accelerator modules (low IA) are mutated first, checkpoint modules (high IA) later --- consistent with a sequential bypass strategy rather than top-down cascade. **Inverted from prediction.**
+
+**Hypothesis 4: Irreversible Authority (IA).** Modules that control more irreversible cell-fate decisions (apoptosis, senescence, terminal differentiation, DNA damage checkpoint commitment) should be more cancer-relevant because their disruption has irreversible phenotypic consequences. This hypothesis is developed in full below.
 
 
 #### Irreversible Authority predicts cancer vulnerability
@@ -182,7 +184,7 @@ The enrichment likely reflects a fundamental relationship between oscillatory dy
 
 ### Irreversible Authority explains the vulnerability gradient
 
-Part 1 establishes that NFL membership matters; Part 2 explains why some NFL modules matter more. The IA metric explains 69% of the variance (rho^2 = 0.69) in CGC fraction across 20 modules. The biological logic is straightforward: modules that control irreversible cell-fate decisions (apoptosis, terminal differentiation, DNA damage checkpoint commitment) create one-way gates in the cellular state space. Cancer must breach these gates to achieve hallmark capabilities such as resistance to cell death and replicative immortality (Hanahan, 2022). Modules controlling only reversible outcomes (circadian rhythm, metabolic switching) can be perturbed transiently without irreversible phenotypic consequences.
+Part 1 establishes that NFL membership matters; Part 2 explains why some NFL modules matter more. The IA metric predicts CGC fraction across 20 modules with Spearman rho = 0.83. The biological logic is straightforward: modules that control irreversible cell-fate decisions (apoptosis, terminal differentiation, DNA damage checkpoint commitment) create one-way gates in the cellular state space. Cancer must breach these gates to achieve hallmark capabilities such as resistance to cell death and replicative immortality (Hanahan, 2022). Modules controlling only reversible outcomes (circadian rhythm, metabolic switching) can be perturbed transiently without irreversible phenotypic consequences.
 
 The IA framework also explains apparent outliers. The p53 module has the highest IA (3) and the highest CGC fraction (72.7%) despite not being the most highly expressed module. Conversely, the Circadian module is abundantly expressed but has IA = 0 and CGC fraction = 0%. Expression level is irrelevant (rho = 0.03); what matters is the irreversibility of the decisions the module controls.
 
@@ -204,7 +206,7 @@ Several limitations should be acknowledged. First, the NFL extraction pipeline r
 
 ### Outlook
 
-The two-level architecture of cancer vulnerability (NFL membership + Irreversible Authority) suggests several testable predictions. First, the 7 unvalidated eigenspace cancer gene candidates (non-CGC genes in the CGC-proximal eigenspace region) represent specific predictions for cancer driver discovery. Second, perturbation of high-IA modules (p53, Wnt, Notch) should produce more irreversible phenotypic consequences than perturbation of low-IA modules (Circadian, SREBP), testable by CRISPR perturbation screens with longitudinal single-cell readouts. Third, the IA metric predicts that therapeutic strategies restoring irreversible checkpoints (e.g., MDM2 inhibitors restoring p53 apoptotic authority) should be more effective than strategies targeting reversible signaling parameters. These predictions are experimentally testable with existing tools.
+The two-level architecture of cancer vulnerability (NFL membership + Irreversible Authority) suggests several testable predictions. First, the 7 unvalidated cancer gene candidates (non-CGC genes in the CGC-proximal region of the module activity eigenspace) represent specific predictions for cancer driver discovery. Second, perturbation of high-IA modules (p53, Wnt, Notch) should produce more irreversible phenotypic consequences than perturbation of low-IA modules (Circadian, SREBP), testable by CRISPR perturbation screens with longitudinal single-cell readouts. Third, the IA framework generates a testable hierarchy among existing therapeutic targets: drugs restoring high-IA checkpoint function (e.g., MDM2 inhibitors acting on the p53 module, IA = 3) should show broader efficacy than drugs targeting low-IA modules, a prediction that can be evaluated against clinical trial databases.
 
 ---
 
@@ -347,7 +349,7 @@ Vogelstein B et al. (2013). Cancer genome landscapes. Science 339:1546-1558.
 
 **Table S8.** Irreversible Authority scores for 20 modules with irreversible outcome definitions, CGC fractions, and sensitivity analysis results.
 
-**Table S9.** Eigenspace cancer gene candidates: 20 non-CGC genes, eigenspace coordinates, distance to CGC centroid, and IntOGen validation status.
+**Table S9.** Module activity eigenspace cancer gene candidates: 20 non-CGC genes, eigenspace coordinates, distance to CGC centroid, and IntOGen validation status.
 
 ---
 
@@ -363,4 +365,4 @@ Vogelstein B et al. (2013). Cancer genome landscapes. Science 339:1546-1558.
 
 **Figure 5. Irreversible Authority predicts cancer vulnerability across modules.** (A) Scatterplot of IA score vs CGC fraction for 20 modules (rho = 0.83). (B) Dose-response: mean CGC fraction by IA level (0, 1, 2, 3). (C) Comparison of three architectural hypotheses: IA (rho = 0.83) vs Authority (rho = 0.752) vs Maintenance cost (rho = 0.03). (D) Sensitivity analysis: leave-one-out range [0.644, 0.783], worst-case triple perturbation rho = 0.714.
 
-**Figure 6. Module activity eigenspace identifies novel cancer gene candidates.** (A) Scree plot: 6 Kaiser components explain 67% of variance in the 20-module x 154-cell-type expression matrix. (B) CGC genes cluster in a non-random eigenspace subregion (permutation *p* = 0.0001). (C) Top 20 novel cancer gene candidates ranked by proximity to CGC centroid. (D) Validation: 13/20 (65%) confirmed by IntOGen, representing 43-fold enrichment over background.
+**Figure 6. Module activity eigenspace identifies novel cancer gene candidates.** (A) Scree plot: 6 Kaiser components explain 67% of variance in the 20-module x 154-cell-type expression matrix. (B) CGC genes cluster in a non-random subregion of the module activity eigenspace (permutation *p* = 0.0001). (C) Top 20 novel cancer gene candidates ranked by proximity to CGC centroid. (D) Validation: 13/20 (65%) confirmed by IntOGen, representing 43-fold enrichment over background.
