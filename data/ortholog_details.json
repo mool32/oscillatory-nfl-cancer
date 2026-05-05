@@ -3815,5 +3815,64 @@
     },
     "compara_version": "v2_dual",
     "query_time": "2026-03-26 11:52:02"
+  },
+  "ENSG00000205643": {
+    "gene_name": "CDKN1A",
+    "orthologs": {
+      "rattus_norvegicus": [
+        {
+          "target_id": "ENSRNOG00000032846",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "canis_lupus_familiaris": [
+        {
+          "target_id": "ENSCAFG00845010320",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "mus_musculus": [
+        {
+          "target_id": "ENSMUSG00000064284",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "caenorhabditis_elegans": [
+        {
+          "target_id": "WBGene00008434",
+          "orthology_type": "ortholog_one2many"
+        },
+        {
+          "target_id": "WBGene00271706",
+          "orthology_type": "ortholog_one2many"
+        }
+      ],
+      "drosophila_melanogaster": [
+        {
+          "target_id": "FBgn0037611",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "danio_rerio": [
+        {
+          "target_id": "ENSDARG00000095705",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "xenopus_tropicalis": [
+        {
+          "target_id": "ENSXETG00000040001",
+          "orthology_type": "ortholog_one2one"
+        }
+      ],
+      "gallus_gallus": [
+        {
+          "target_id": "ENSGALG00010023068",
+          "orthology_type": "ortholog_one2one"
+        }
+      ]
+    },
+    "compara_version": "v2_dual",
+    "query_time": "2026-04-08 23:07:01"
   }
 }

@@ -13,7 +13,7 @@ loop_id,pathway_name,activator,inhibitor,M.musculus,R.norvegicus,C.l.familiaris,
 12,Hedgehog / SUFU,GLI1,SUFU,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,7
 13,UPR / IRE1-BiP,ERN1,HSPA5,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,8
 14,Calcium / SERCA,PLCG1,ATP2A2,1,1,1,1,1,1,1,0,1,1,0,1,0,0,0,10
-15,Cell Cycle CKI / CDK,CDK2,CDKN1A,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,7
+15,Cell Cycle CKI / CDK,CDK2,CDKN1A,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,8
 16,Rb / E2F,E2F1,RB1,1,1,1,1,1,1,0,0,1,1,0,0,0,1,1,10
 17,HIF / VHL,HIF1A,VHL,1,1,0,1,1,1,0,0,1,0,0,0,0,0,0,6
 18,NFAT / RCAN,NFATC1,RCAN1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,6

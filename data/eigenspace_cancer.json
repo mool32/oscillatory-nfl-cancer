@@ -2,7 +2,7 @@
   "step1": {
     "cgc_n": 84,
     "noncgc_n": 128,
-    "multivariate_p": 0.0001,
+    "multivariate_p": 0.0,
     "significant_pcs": [
       5
     ]
@@ -17,32 +17,32 @@
   "step3": {
     "gof_n": 25,
     "lof_n": 34,
-    "multivariate_p": 0.0626,
+    "multivariate_p": 0.058,
     "centroid_distance": 0.2019
   },
   "step4": {
     "n_candidates": 128,
     "top_candidates": [
-      "DLL1",
-      "NOTCH3",
-      "DLL4",
       "MAML1",
-      "RBPJ",
+      "HES1",
       "NOTCH4",
       "JAG1",
-      "HES1",
       "JAG2",
+      "NOTCH3",
+      "DLL4",
+      "DLL1",
+      "RBPJ",
       "PMAIP1",
       "BBC3",
-      "SMURF2",
-      "SMAD7",
-      "SMURF1",
       "BMPR2",
-      "PPARD",
-      "RXRA",
-      "NR1H3",
+      "SMAD7",
+      "SMURF2",
+      "SMURF1",
       "NR1H2",
-      "PPARA"
+      "PPARA",
+      "PPARD",
+      "NR1H3",
+      "RXRA"
     ]
   }
 }

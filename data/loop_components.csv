@@ -13,7 +13,7 @@ loop_id,pathway_name,activator_gene,activator_ensembl,inhibitor_gene,inhibitor_e
 12,Hedgehog / SUFU,GLI1,ENSG00000111087,SUFU,ENSG00000107882,ENZ,cytoplasmic sequestration/degradation of GLI transcription factors,yes,yes,17360644
 13,UPR / IRE1-BiP,ERN1,ENSG00000178607,HSPA5,ENSG00000044574,SEQ,"BiP chaperone binds IRE1 lumenal domain, repressing activation",yes,no,15722559
 14,Calcium / SERCA,PLCG1,ENSG00000124181,ATP2A2,ENSG00000174437,ENZ,"SERCA pump restores ER Ca²⁺, terminating cytoplasmic signal",yes,no,12559096
-15,Cell Cycle CKI / CDK,CDK2,ENSG00000123374,CDKN1A,ENSG00000124762,SEQ,stoichiometric CDK inhibitor (p21) binding and inactivation,no,yes,8259215
+15,Cell Cycle CKI / CDK,CDK2,ENSG00000123374,CDKN1A,ENSG00000205643,SEQ,stoichiometric CDK inhibitor (p21) binding and inactivation,no,yes,8259215
 16,Rb / E2F,E2F1,ENSG00000101412,RB1,ENSG00000139687,SEQ,"Rb sequesters E2F, blocking transcriptional activation",no,yes,8259210
 17,HIF / VHL,HIF1A,ENSG00000100644,VHL,ENSG00000134086,SEQ,VHL E3 ligase targets hydroxylated HIF-1α for degradation,no,yes,10205047
 18,NFAT / RCAN,NFATC1,ENSG00000131196,RCAN1,ENSG00000159200,SEQ,"RCAN1 inhibits calcineurin phosphatase, blocking NFAT dephosphorylation",no,yes,11331884
